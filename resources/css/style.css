@@ -1,0 +1,95 @@
+/*BASIC SETUP*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Get rid of Bootstrap Overflow*/
+
+container,
+container-fluid,
+row {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-image: linear-gradient(#f0ede5, #42ad03);
+    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+header,
+footer {
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+
+/*NAV MENU*/
+
+.main-nav {
+    list-style: none;
+    margin-top: 0px;
+    text-align: right;
+    border: 0;
+    letter-spacing: 6px;
+    font-weight: 600;
+}
+
+.main-nav li {
+    display: inline;
+}
+
+.main-nav li a {
+    float: right;
+    margin-right: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #26cf0f
+}
+
+.navbar {
+    padding: 0px;
+    margin: 0;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+.logo {
+    width: auto;
+    height: 160px;
+    float: left;
+    margin-left: 0px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    color: #fff;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.socialmedia {
+    margin: auto 0;
+}
+
+.socialmedia li {
+    list-style: none;
+    display: inline-block;
+    font-size: 200%;
+}
+
+.smedia-links li i {
+    color: #26cf0f;
+    font-size: 130%;
+}
