@@ -94,23 +94,30 @@ This page also lists important partnership to build trust and increase the odds 
 
 
 
-### Join Page
+### What's at stake
 
-![Join Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframefoodproblem.png)
+![Join Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframewhat'satstake.png)
 
-![Join Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/ wireframefoodproblemmobile.png)
+![Join Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframewhat'satstakemobile.png)
    
-### Classes Page
+### Quiz Page
    
 ![Classes Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframequiz.png)
 
 ![Classes Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframequizmobile.png)
 
-### Contact Page
+### About Us Page
 
 ![Contact Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframecontact.png)
 
 ![Contact Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframecontactmobile.png)
+
+### Contact Page
+
+![Contact Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframeaboutus.png)
+
+![Contact Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframeaboutusmobile.png)
+
 
 
 
