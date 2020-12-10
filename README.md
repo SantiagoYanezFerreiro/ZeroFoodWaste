@@ -40,9 +40,6 @@ At the bottom there is a menu to access other relevant sections for users: Learn
 
 
 
-
-
-
 ### What’s at Stake 
 Talks about additional statistics and future predictions to compel users to take action and see for themselves how big the problem is.
 Then the site displays the top 10 countries that waste the most food using Google Maps API.
@@ -70,10 +67,15 @@ This page also lists important partnership to build trust and increase the odds 
 •	**Footer** – Social Media Links and logo to go back to the home page.
 
 •	**Informational Blocks** – Relevant Food Waste Statistics.
+
 •	**Entity Info** – The section about us features diverse info about the organisation.
+
 •	**Contact Form** - Allows visitors to collaborate and/or subscribe to the newsletter.
+
 •	**Sections Menu** - At the bottom of several pages there is a menu of possible actions to take. The aim of it is to spend more time on the site and ultimately get more donations/newsletter subscriptions.
+
 •	**Quiz** - Tests visitor knowledge and gives them a score based on their number of correct answers.
+
 •	**Google Maps Section** - Shows the biggest worldwide contributors to the Food Waste problem.
 
 
@@ -90,13 +92,16 @@ This page also lists important partnership to build trust and increase the odds 
    
 ![Home Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframehome.png)
 
-![Home Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframehomemobile.png)
+### Home Page Mobile Layout
 
+![Home Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframehomemobile.png)
 
 
 ### What's at stake
 
 ![Join Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframewhat'satstake.png)
+
+### What's at Stake Mobile Layout
 
 ![Join Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframewhat'satstakemobile.png)
    
@@ -104,11 +109,15 @@ This page also lists important partnership to build trust and increase the odds 
    
 ![Classes Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframequiz.png)
 
+### Quiz Page Mobile Layout
+
 ![Classes Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframequizmobile.png)
 
 ### About Us Page
 
 ![Contact Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframecontact.png)
+
+### About Us Mobile Layout
 
 ![Contact Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframecontactmobile.png)
 
@@ -116,14 +125,10 @@ This page also lists important partnership to build trust and increase the odds 
 
 ![Contact Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframeaboutus.png)
 
+
+### Contact Page Mobile Layout
+
 ![Contact Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframeaboutusmobile.png)
-
-
-
-
-
-
-
 
 
 ## Technologies Used
@@ -180,8 +185,6 @@ All links function and all images are in the Gitpod repository.
 
 ## Bugs & Problems
 •	It took me a while to format properly the text boxes.
-
-
 
 
 ## Deployment
