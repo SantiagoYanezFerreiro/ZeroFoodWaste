@@ -16,18 +16,57 @@ row {
     padding: 0;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 html,
 body {
     background-image: linear-gradient(#f0ede5, #42ad03);
     font-family: 'Lato', 'Arial', 'sans-serif';
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    word-spacing: 5px;
+}
+
+h3 {
+    font-weight: 500;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2;
+    text-align: left;
+    max-width: 100ch;
 }
 
 header,
 footer {
     background-color: rgba(0, 0, 0, 0.87);
+}
+
+section {
+    margin: 9;
 }
 
 
@@ -70,6 +109,285 @@ footer {
     margin-left: 0px;
 }
 
+.content-box,
+.question-box,
+.answer {
+    background-color: #fff;
+    border: 4px solid #42ad03;
+    border-radius: 25px;
+    padding: 5px 5px;
+    vertical-align: center;
+    margin: 0 auto;
+}
+
+.content-box {
+    margin: 10% 20%;
+}
+
+.small {
+    margin: 5% 5%;
+}
+
+.question-box {
+    margin: 0 auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.question {
+    margin-top: 100px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.answer {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.fruits-image {
+    background: url("../images/fruits.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-height: 80vh;
+}
+
+.food-image {
+    background: url("../images/freshfood.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.food-image {
+    background: url("../images/food.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.food1-image {
+    background: url("../images/food1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.food2-image {
+    background: url("../images/food2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.food3-image {
+    background: url("../images/food3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.food-4-image {
+    background: url("../images/food4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.foodcontrast-image {
+    background: url("../images/foodcontrast.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.wastedfood-image {
+    background: url("../images/wastedfood.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.wastedfood-image2 {
+    background: url("../images/wastedfood-2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.wastedfood-image3 {
+    background: url("../images/wastedfood-3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.bg-black {
+    background-color: #000;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.bg-white {
+    background-color: #fff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+
+
+/*
+.imagecontainer {
+    position: relative;
+    width: 100%;
+}
+
+.imagecontainer h1 {
+    position: absolute;
+    top: 10px;
+    width: 500%;
+    border: 4px solid green;
+    background-color: white;
+}
+
+.imagecontainer h2 {
+    position: absolute;
+    top: 100px;
+    border: 4px solid green;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.imagecontainer h3 {
+    position: absolute;
+    top: 250px;
+    width: 60%;
+    border: 4px solid green;
+    background-color: white;
+    text-align: center;
+}
+
+.imagecontainer p {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+
+
+.image {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+*/
+
+
+/*ABOUT US SECTION*/
+
+.section-aboutus {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+img {
+    max-height: 450px;
+    margin: 0px;
+}
+
+
+/*ºT SECTION*/
+
+.section-contactform {
+    font-size: 180%;
+    padding: 10px;
+}
+
+.standardbtn {
+    background-color: #42ad03;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-style: none;
+    border-radius: 20px;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.partners {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.partners img {
+    margin: 0px 20px;
+    width: 210px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
 
 /*FOOTER*/
 
@@ -91,5 +409,6 @@ footer {
 
 .smedia-links li i {
     color: #26cf0f;
+    margin-right: 20px;
     font-size: 130%;
 }

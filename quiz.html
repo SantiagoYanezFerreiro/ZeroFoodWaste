@@ -10,7 +10,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.0/css/mdb.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
     <title>Zero Food Waste</title>
 </head>
@@ -18,7 +18,9 @@
 <body>
     <header>
         <nav class="navbar navbar-light navbar-expand-md navmenu">
-            <a href="index.html"><img src="resources/img/logo.PNG" alt="Company Logo" class="logo"> </a>
+            <a href="index.html">
+                <images src="assets/images/logo.PNG" alt="Company Logo" class="logo">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Collapsiblenav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -34,75 +36,143 @@
 
     </header>
 
-    <section class="container section-quizsection">
+    <section class="container-fluid section-quizsection">
         <div class="row">
             <div class="col-12">
-                Are you ready to test your Food Waste knowledge? Go for It!
+                <div class="content-box small">
+                    <h1>
+                        Are you ready to test your Food Waste knowledge? Go for It!
+                    </h1>
+                </div>
             </div>
 
-            <div class="col-12 question">
-                <h2>How much food waste produced globally goes to waste?</h2>
-                <p class="answer">33%</p>
-                <p class="answer">50%</p>
-                <p class="answer">10%</p>
+            <div class="col-12 question container-fluid">
+                <div class="question-box">
+                    <h2>How much food waste produced globally goes to waste?</h2>
+                    <p class="answer answer-btn right">33%</p>
+                    <p class="answer answer-btn false">33%</p>
+                    <p class="answer answer-btn false">33%</p>
+                </div>
             </div>
-            <div class="col-12 question">
-                <h2>What is the economical value of food wasted every year in the world?</h2>
-                <p class="answer">$10 billion</p>
-                <p class="answer">$1 billion</p>
-                <p class="answer">$1 trillion</p>
+            <div class="col-12 question bg-black container-fluid">
+                <div class="question-box">
+                    <h2>What is the economical value of food wasted every year in the world?</h2>
+                    <p class="answer answer-btn right">$10 billion</p>
+                    <p class="answer answer-btn false">$1 billion</p>
+                    <p class="answer answer-btn false">$1 trillion</p>
+                </div>
             </div>
-            <div class="col-12 question">
-                <h2>How much food waste produced globally goes to waste?</h2>
-                <p class="answer">1 billion tonnes</p>
-                <p class="answer">1.3 billion tones</p>
-                <p class="answer">0.3 million tones</p>
+            <div class="col-12 question container-fluid">
+                <div class="question-box">
+                    <h2>How much food waste produced globally goes to waste?</h2>
+                    <p class="answer answer-btn right">1 billion tonnes</p>
+                    <p class="answer answer-btn false">1.3 billion tones</p>
+                    <p class="answer answer-btn false">0.3 million tones</p>
+                </div>
             </div>
-            <div class="col-12 question">
-                <h2>What percentage of the total waster supply is used to grow food never eaten?</h2>
-                <p class="answer">25%</p>
-                <p class="answer">5%</p>
-                <p class="answer">10%</p>
+            <div class="col-12 question bg-black container-fluid">
+                <div class="question-box">
+                    <h2>What percentage of the total waster supply is used to grow food never eaten?</h2>
+                    <p class="answer answer-btn false">25%</p>
+                    <p class="answer answer-btn false">5%</p>
+                    <p class="answer answer-btn right">10%</p>
+                </div>
             </div>
-            <div class="col-12 question">
-                <h2>If food waste was a country, what position would it take among the largest greenhouse gases emitters?</h2>
-                <p class="answer">10th</p>
-                <p class="answer">20th</p>
-                <p class="answer">3rd</p>
+            <div class="col-12 question container-fluid">
+                <div class="question-box">
+                    <h2>If food waste was a country, what position would it take among the largest greenhouse gases emitters?</h2>
+                    <p class="answer answer-btn right">10th</p>
+                    <p class="answer answer-btn false">20th</p>
+                    <p class="answer answer-btn false">3rd</p>
+                </div>
+            </div>
+            <div class="col-12 question bg-black container-fluid">
+                <div class="question-box">
+                    <h2>How much food would be needed to feed the nearly one billion hungry people in the world?</h2>
+                    <p class="answer answer-btn false">¼ of the wasted food in the US, UK and Europe</p>
+                    <p class="answer answer-btn right">2x the wasted food in the US, UK and Europe</p>
+                    <p class="answer answer-btn falseº">The annual wasted food in the US, UK and Europe</p>
+                </div>
+            </div>
+            <div class="col-12 question container-fluid">
+                <div class="question-box">
+                    <h2>What can we do to be able to feed the extra 2.3 billion people that will leave on Earth by 2050?</h2>
+                    <p class="answer answer-btn false">Either increase global food production by 60-70% or stop wasting food .</p>
+                    <p class="answer answer-btn false">Increase global food production by 300%</p>
+                    <p class="answer answer-btn right">Increase global food production by 100% and reduce food wasted annually by 20%.</p>
+                </div>
             </div>
         </div>
     </section>
 
-
-<footer>
-    <div class="container-fluid company-logo">
+    <section class="container-fluid score-section">
+        <div class="row">
+            <div class="col-12">
+                <p class="" id="display-score">Get your Score!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="hide-show">
+                    <h1 id="score"></h1>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-12 col-md-6">
-                <a href="index.html"><img src="resources/img/logo.PNG" alt="Company Logo" class="logo"></a>
+                <div class="hide-show further-action">
+                    <p class="new-try"></p>
+                    <p class="get-score-btn score-btn" id="refresh">Try again!</p>
+                </div>
             </div>
-
-            <div class="col-12 col-md-6  socialmedia ">
-                <ul class="smedia-links ">
-                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook "></i></a></li>
-                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter "></i></a></li>
-                    <li><a href="https://www.instagram.com/ " target="_blank"><i class="fab fa-instagram "></i></a></li>
-                </ul>
+            <div class="col-12 col-md-6">
+                <div class="hide-show further-action">
+                    <p class="">Curious about the right answers?:</p>
+                    <a class="submit-results-btn" href="results.html" role="button">Check the correct answers</a>
+                </div>
             </div>
+        </div>
 
+    </section>
+
+    <!--
+    <div class="image container-fluid">
+        <img src="assets/images/fooddonation.jpg">
+        <div class="text">
+            Text of variable length
         </div>
     </div>
+-->
 
-</footer>
+    <footer>
+        <div class="container-fluid company-logo">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <a href="index.html"><img src="assets/images/logo.PNG" alt="Company Logo" class="logo"></a>
+                </div>
 
-<!-- JQuery -->
-<script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js "></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js "></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js "></script>
-<script src="resources/js/script.js"></script>
+                <div class="col-12 col-md-6  socialmedia ">
+                    <ul class="smedia-links ">
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook "></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter "></i></a></li>
+                        <li><a href="https://www.instagram.com/ " target="_blank"><i class="fab fa-instagram "></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- JQuery -->
+    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js "></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js "></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js "></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
