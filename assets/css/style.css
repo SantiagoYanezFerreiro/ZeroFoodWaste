@@ -109,6 +109,8 @@ section {
     margin-left: 0px;
 }
 
+
+
 .content-box,
 .question-box,
 .answer {
@@ -120,8 +122,11 @@ section {
     margin: 0 auto;
 }
 
-.content-box {
-    margin: 10% 20%;
+.content-box-options{
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-right:0px;
+    
 }
 
 .small {
@@ -145,114 +150,59 @@ section {
     margin-right: 20%;
 }
 
-.fruits-image {
-    background: url("../images/fruits.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    max-height: 80vh;
+
+/*TEXT POSITIONING OVER IMAGES*/
+
+
+.imageblock{
+    position:relative;
+    min-height:400px;
 }
 
-.food-image {
-    background: url("../images/freshfood.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 80vh;
+.text-block p {
+    text-align:center;
+}
+.text-block-main{
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 250px;
+    text-align:center;
+    margin-left:10%;
+    margin-right:10%;
+        
 }
 
-.food-image {
-    background: url("../images/food.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 60vh;
+.text-block-main-low{
+        position: absolute;
+        padding-left: 20px;
+        padding-right: 20px;
+        bottom: 100px;
+        text-align:center;
+        margin-left:10%;
+        margin-right:10%;
+            
+    
+}
+.text-block{
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom:20px;
+    
+    
+}
+.position-left {
+    left:40px;
 }
 
-.food1-image {
-    background: url("../images/food1.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 80vh;
+.position-right {
+    right:40px;
 }
 
-.food2-image {
-    background: url("../images/food2.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 80vh;
-}
-
-.food3-image {
-    background: url("../images/food3.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 80vh;
-}
-
-.food-4-image {
-    background: url("../images/food4.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 80vh;
-}
-
-.foodcontrast-image {
-    background: url("../images/foodcontrast.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 80vh;
-}
-
-.wastedfood-image {
-    background: url("../images/wastedfood.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 80vh;
-}
-
-.wastedfood-image2 {
-    background: url("../images/wastedfood-2.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 80vh;
-}
-
-.wastedfood-image3 {
-    background: url("../images/wastedfood-3.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 80vh;
+.position-center{
+    left:0;
+    right:0;
 }
 
 .bg-black {
@@ -276,73 +226,14 @@ section {
 }
 
 
-/*
-.imagecontainer {
-    position: relative;
-    width: 100%;
-}
-
-.imagecontainer h1 {
-    position: absolute;
-    top: 10px;
-    width: 500%;
-    border: 4px solid green;
-    background-color: white;
-}
-
-.imagecontainer h2 {
-    position: absolute;
-    top: 100px;
-    border: 4px solid green;
-    width: 50%;
-    background-color: white;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.imagecontainer h3 {
-    position: absolute;
-    top: 250px;
-    width: 60%;
-    border: 4px solid green;
-    background-color: white;
-    text-align: center;
-}
-
-.imagecontainer p {
-    position: absolute;
-    bottom: 100px;
-    width: 100%;
-}
-
-
-.image {
-    width: 100%;
-    position: relative;
-    text-align: center;
-}
-
-.text {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0px;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-}
-*/
-
-
 /*ABOUT US SECTION*/
 
 .section-aboutus {
     margin-top: 70px;
     margin-bottom: 70px;
 }
+
+
 
 img {
     max-height: 450px;
