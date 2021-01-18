@@ -1,305 +1,320 @@
 /*BASIC SETUP*/
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 /* Get rid of Bootstrap Overflow*/
 
 container,
 container-fluid,
 row {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 html,
 body {
-    background-image: linear-gradient(#f0ede5, #42ad03);
-    font-family: 'Lato', 'Arial', 'sans-serif';
-    font-weight: 300;
-    font-size: 15px;
-    text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+  background-image: linear-gradient(#f0ede5, #42ad03);
+  font-family: "Lato", "Arial", "sans-serif";
+  font-weight: 300;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 h1,
 h2,
 h3 {
-    font-weight: 600px;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    letter-spacing: 3px;
+  font-weight: 600px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
 }
 
 h1,
 h2 {
-    font-weight: 700;
-    word-spacing: 5px;
+  font-weight: 700;
+  word-spacing: 5px;
 }
 
 h3 {
-    font-weight: 500;
-    font-weight: bold;
+  font-weight: 500;
+  font-weight: bold;
 }
 
 p {
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 2;
-    text-align: left;
-    max-width: 100ch;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2;
+  text-align: left;
+  max-width: 100ch;
 }
 
 header,
 footer {
-    background-color: rgba(0, 0, 0, 0.87);
+  background-color: rgba(0, 0, 0, 0.87);
 }
 
 section {
-    margin: 9;
+  margin: 9;
 }
-
 
 /*NAV MENU*/
 
 .main-nav {
-    list-style: none;
-    margin-top: 0px;
-    text-align: right;
-    border: 0;
-    letter-spacing: 6px;
-    font-weight: 600;
+  list-style: none;
+  margin-top: 0px;
+  text-align: right;
+  border: 0;
+  letter-spacing: 6px;
+  font-weight: 600;
 }
 
 .main-nav li {
-    display: inline;
+  display: inline;
 }
 
 .main-nav li a {
-    float: right;
-    margin-right: 40px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #26cf0f
+  float: right;
+  margin-right: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #26cf0f;
 }
 
 .navbar {
-    padding: 0px;
-    margin: 0;
+  padding: 0px;
+  margin: 0;
 }
 
 .navbar-toggler-icon {
-    color: black;
+  color: black;
 }
 
 .logo {
-    width: auto;
-    height: 160px;
-    float: left;
-    margin-left: 0px;
+  width: auto;
+  height: 160px;
+  float: left;
+  margin-left: 0px;
 }
-
-
 
 .content-box,
 .question-box,
 .answer {
-    background-color: #fff;
-    border: 4px solid #42ad03;
-    border-radius: 25px;
-    padding: 5px 5px;
-    vertical-align: center;
-    margin: 0 auto;
+  background-color: #fff;
+  border: 4px solid #42ad03;
+  border-radius: 25px;
+  padding: 5px 5px;
+  vertical-align: center;
+  margin: 0 auto;
 }
 
-.content-box-options{
-    margin: 0 auto;
-    margin-left: 0px;
-    margin-right:0px;
-    
+.content-box-options {
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .small {
-    margin: 5% 5%;
+  margin: 5% 5%;
 }
 
 .question-box {
-    margin: 0 auto;
-    margin-left: 20%;
-    margin-right: 20%;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .question {
-    margin-top: 100px;
-    padding-top: 40px;
-    margin-bottom: 20px;
+  margin-top: 100px;
+  padding-top: 40px;
+  margin-bottom: 20px;
 }
 
 .answer {
-    margin-left: 20%;
-    margin-right: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
 }
 
+.score-section .col-12,
+.score-section p {
+  text-align: center;
+}
+
+/*BUTTONS */
+
+.normal-btn {
+  font-size: 10px;
+  color: #528fcb;
+  background-color: #f5f862;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.standard-btn {
+  background-color: #42ad03;
+  color: #fff;
+  padding: 10px;
+  border: 4px solid 000;
+  border-radius: 25px;
+  padding: 20px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.form-btn {
+}
 
 /*TEXT POSITIONING OVER IMAGES*/
 
+.imageblock {
+  position: relative;
+  min-height: 400px;
+}
 
-.imageblock{
-    position:relative;
-    min-height:400px;
+.imageblock-big {
+  position: relative;
+  min-height: 400px;
 }
 
 .text-block p {
-    text-align:center;
+  text-align: center;
 }
-.text-block-main{
-    position: absolute;
-    padding-left: 20px;
-    padding-right: 20px;
-    bottom: 250px;
-    text-align:center;
-    margin-left:10%;
-    margin-right:10%;
-        
+.text-block-main {
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  bottom: 250px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.text-block-main-low{
-        position: absolute;
-        padding-left: 20px;
-        padding-right: 20px;
-        bottom: 100px;
-        text-align:center;
-        margin-left:10%;
-        margin-right:10%;
-            
-    
+.text-block-main-low {
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  bottom: 100px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-.text-block{
-    position: absolute;
-    padding-left: 20px;
-    padding-right: 20px;
-    bottom:20px;
-    
-    
+.text-block {
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  bottom: 20px;
 }
 .position-left {
-    left:40px;
+  left: 40px;
 }
 
 .position-right {
-    right:40px;
+  right: 40px;
 }
 
-.position-center{
-    left:0;
-    right:0;
+.position-center {
+  left: 0;
+  right: 0;
 }
 
-.bg-black {
-    background-color: #000;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 60vh;
+.bg-form {
+  background-image: url("../images/food1.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  width: 30%;
+  min-height: 30vh;
 }
 
 .bg-white {
-    background-color: #fff;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 80vh;
+  background-color: #fff;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 80vh;
 }
-
 
 /*ABOUT US SECTION*/
 
 .section-aboutus {
-    margin-top: 70px;
-    margin-bottom: 70px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
-
-
 
 img {
-    max-height: 450px;
-    margin: 0px;
+  max-height: 450px;
+  margin: 0px;
 }
-
 
 /*ºT SECTION*/
 
 .section-contactform {
-    font-size: 180%;
-    padding: 10px;
+  font-size: 180%;
+  padding: 10px;
 }
 
-.standardbtn {
-    background-color: #42ad03;
-    padding: 10px;
-    border: none;
-    outline: none;
-    border-style: none;
-    border-radius: 20px;
-    padding: 20px 30px;
-    font-size: 20px;
-    font-weight: 500;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+.section-contactform form {
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
 
 .partners {
-    margin: 0 auto;
-    margin-bottom: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .partners img {
-    margin: 0px 20px;
-    width: 210px;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
+  margin: 0px 20px;
+  width: 210px;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
 }
-
 
 /*FOOTER*/
 
 footer {
-    color: #fff;
-    margin-bottom: 0px;
-    text-align: right;
+  color: #fff;
+  margin-bottom: 0px;
+  text-align: right;
 }
 
 .socialmedia {
-    margin: auto 0;
+  margin: auto 0;
 }
 
 .socialmedia li {
-    list-style: none;
-    display: inline-block;
-    font-size: 200%;
+  list-style: none;
+  display: inline-block;
+  font-size: 200%;
 }
 
 .smedia-links li i {
-    color: #26cf0f;
-    margin-right: 20px;
-    font-size: 130%;
+  color: #26cf0f;
+  margin-right: 20px;
+  font-size: 130%;
 }
