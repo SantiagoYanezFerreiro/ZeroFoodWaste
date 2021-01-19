@@ -65,7 +65,7 @@ footer {
 }
 
 section {
-  margin: 9;
+  margin: 0;
 }
 
 /*NAV MENU*/
@@ -108,14 +108,28 @@ section {
 }
 
 .content-box,
+.content-box-green,
 .question-box,
+.question-box-green,
 .answer {
   background-color: #fff;
-  border: 4px solid #42ad03;
   border-radius: 25px;
   padding: 5px 5px;
   vertical-align: center;
   margin: 0 auto;
+}
+
+.content-box,
+.question-box,
+.answer {
+  border: 4px solid #000;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.content-box-green,
+.question-box-green {
+  border: 4px solid #26cf0f;
 }
 
 .content-box-options {
@@ -167,7 +181,7 @@ section {
 }
 
 .standard-btn {
-  background-color: #42ad03;
+  background-color: #000;
   color: #fff;
   padding: 10px;
   border: 4px solid 000;
@@ -179,6 +193,15 @@ section {
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
+}
+
+.answer-btn {
+  margin: 0 auto;
+  min-width: 450px;
+  max-width: 450px;
+  display: block;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .form-btn {
@@ -242,30 +265,65 @@ section {
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: cover;
-  width: 30%;
+  width: 100%;
   min-height: 30vh;
 }
 
-.bg-white {
+.bg-quiz {
+  background-image: url("../images/foodwaste.webp");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  width: 100%;
+  min-height: 40vh;
+}
+
+.bg-mission {
+  background-image: url("../images/greensfruit.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+}
+
+.bg-white,
+.bg-white-short {
   background-color: #fff;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+}
+
+.bg-white {
   min-height: 80vh;
+}
+
+.bg-white-short {
+  min-height: 50vh;
 }
 
 /*ABOUT US SECTION*/
 
-.section-aboutus {
-  margin-top: 70px;
-  margin-bottom: 70px;
+.section-aboutus,
+.section-partners {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section-partners .content-box {
+  margin-top: 0px;
 }
 
 img {
   max-height: 450px;
   margin: 0px;
+}
+
+.img-container {
+  max-height: 800px;
 }
 
 /*ºT SECTION*/
@@ -280,9 +338,14 @@ img {
   margin-top: 30px;
 }
 
+.section-contactform input {
+  width: 600px;
+}
+
 .partners {
+  martin-top: 0px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .partners img {
