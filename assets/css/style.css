@@ -22,7 +22,7 @@ row {
 
 html,
 body {
-  background-image: linear-gradient(#f0ede5, #42ad03);
+  /*background-image: linear-gradient(#f0ede5, #42ad03);*/
   font-family: "Lato", "Arial", "sans-serif";
   font-weight: 300;
   font-size: 15px;
@@ -65,7 +65,19 @@ footer {
 }
 
 section {
-  margin: 0;
+  min-height: 40vh;
+}
+
+.section-contactform {
+  min-height: 100vh;
+}
+
+.score-section {
+  min-height: 20vh;
+}
+
+footer {
+  min-height: 15vh;
 }
 
 /*NAV MENU*/
@@ -162,6 +174,10 @@ section {
   text-align: center;
 }
 
+#display-score {
+  margin-top: 60px;
+}
+
 .score-section .col-12,
 .score-section p {
   text-align: center;
@@ -195,10 +211,15 @@ section {
   -o-border-radius: 25px;
 }
 
+.standard-btn:hover,
+.normal-btn:hover {
+  color: #26cf0f;
+}
+
 .answer-btn {
   margin: 0 auto;
   min-width: 450px;
-  max-width: 450px;
+  max-width: 600px;
   display: block;
   margin-top: 3px;
   margin-bottom: 3px;
@@ -266,11 +287,11 @@ section {
   background-position: fixed;
   background-size: cover;
   width: 100%;
-  min-height: 30vh;
+  min-height: 800px;
 }
 
 .bg-quiz {
-  background-image: url("../images/foodwaste.webp");
+  background-image: url("../images/wastedfood-4.jpg");
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: cover;
@@ -302,7 +323,24 @@ section {
 }
 
 .bg-white-short {
-  min-height: 50vh;
+  min-height: 400px;
+}
+
+/* QUIZ */
+
+/* classes effects*/
+
+.true {
+  background-color: #26cf0f;
+  color: rgb(0, 183, 255);
+  border: 2px solid rgb(0, 183, 255);
+  pointer-events: none;
+}
+.false {
+  background-color: red;
+  color: rgba(255, 255, 0, 0.747);
+  border: 2px solid rgb(0, 183, 255);
+  pointer-events: none;
 }
 
 /*ABOUT US SECTION*/
@@ -318,15 +356,15 @@ section {
 }
 
 img {
-  max-height: 450px;
+  max-height: 400px;
   margin: 0px;
 }
 
 .img-container {
-  max-height: 800px;
+  max-height: 600px;
 }
 
-/*ºT SECTION*/
+/*CONTACT SECTION*/
 
 .section-contactform {
   font-size: 180%;
@@ -340,6 +378,11 @@ img {
 
 .section-contactform input {
   width: 600px;
+  height: 40px;
+}
+
+#name {
+  margin-top: 30px;
 }
 
 .partners {
