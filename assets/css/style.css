@@ -57,11 +57,12 @@ p {
   line-height: 2;
   text-align: left;
   max-width: 100ch;
+  color: #000;
 }
 
 header,
 footer {
-  background-color: rgba(0, 0, 0, 0.87);
+  background-color: ;
 }
 
 section {
@@ -69,7 +70,11 @@ section {
 }
 
 .section-contactform {
-  min-height: 100vh;
+  min-height: 90vh;
+}
+
+.section-contactform footer {
+  min-height: 5vh;
 }
 
 .score-section {
@@ -95,6 +100,49 @@ footer {
   display: inline;
 }
 
+nav.filleffect ul li a {
+  position: relative;
+}
+
+nav.filleffect ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: yellow;
+  height: 1px;
+}
+
+nav.filleffect ul li a:after {
+  text-align: left;
+  content: ".";
+  margin: 0;
+  opacity: 0;
+}
+nav.filleffect ul li a:hover {
+  color: #fff;
+  z-index: 1;
+  background-color: black;
+}
+nav.filleffect ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+nav.filleffect ul li a {
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
 .main-nav li a {
   float: right;
   margin-right: 40px;
@@ -226,6 +274,10 @@ footer {
 }
 
 .form-btn {
+}
+
+.addbuttonmargin {
+  margin-top: 45px;
 }
 
 /*TEXT POSITIONING OVER IMAGES*/
@@ -376,9 +428,15 @@ img {
   margin-top: 30px;
 }
 
-.section-contactform input {
+.section-contactform input,
+textarea {
   width: 600px;
   height: 40px;
+}
+
+textarea {
+  width: 600px;
+  height: 80px;
 }
 
 #name {
@@ -409,8 +467,16 @@ footer {
   text-align: right;
 }
 
-.socialmedia {
+.socialmedia,
+.copyright {
   margin: auto 0;
+  margin-top: 50px;
+}
+
+.copyright p {
+  color: #26cf0f;
+  font-size: 110%;
+  font-weight: 600;
 }
 
 .socialmedia li {

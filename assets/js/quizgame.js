@@ -22,7 +22,7 @@ $(".right").one("click", function () {
 });
 
 //Fades out other possible quiz answers when one has been selected
-$(".quiz-btn").click(function () {
+$(".answer-btn").click(function () {
   $(this).siblings().fadeOut("300");
 });
 
@@ -31,8 +31,9 @@ $("#display-score").click(function () {
   //Shows the box with user's results
   $(".hide-show").show();
   $(".score-btn").show();
+  $("#checksanswers").addClass("addbuttonmargin");
 
-  $("#score").text("Total Score: " + score + "/9 points");
+  $("#score").text("Total Score: " + score + "/5 points");
   if (score === 7) {
     $(".new-try").text(`You're already a master`);
   } else if (score >= 5) {
