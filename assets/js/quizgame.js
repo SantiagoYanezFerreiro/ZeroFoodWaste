@@ -1,5 +1,6 @@
-//Score variable defaulta value, set to 0
+//Score variable default value, set to 0
 let score = 0;
+let questionsanswered = 0;
 
 $(document).ready(function () {});
 
@@ -22,7 +23,8 @@ $(".right").one("click", function () {
 });
 
 //Fades out other possible quiz answers when one has been selected
-$(".answer-btn").click(function () {
+$(".answer-btn").one("click", function () {
+  questionsanswered += 1;
   $(this).siblings().fadeOut("300");
 });
 
@@ -34,11 +36,29 @@ $("#display-score").click(function () {
   $("#checksanswers").addClass("addbuttonmargin");
 
   $("#score").text("Total Score: " + score + "/5 points");
-  if (score === 7) {
+  if (score === 5) {
     $(".new-try").text(`You're already a master`);
-  } else if (score >= 5) {
-    $(".new-try").text("Very good job, your knowledge is very advanced");
-  } else if (score < 5 && score >= 1) {
+  } else if (score >= 3) {
+    $(".new-try").text("Good job, your knowledge is very advanced");
+  } else if (score < 2 && score >= 1) {
+    $(".new-try").text("Good try, wanna give it another go?");
+  } else {
+    $(".new-try").text("Sth went wrong, wanna try again?");
+  }
+});
+
+$("#display-score").click(function getScore() {
+  //Shows the box with user's results
+  $(".hide-show").show();
+  $(".score-btn").show();
+  $("#checksanswers").addClass("addbuttonmargin");
+
+  $("#score").text("Total Score: " + score + "/5 points");
+  if (score === 5) {
+    $(".new-try").text(`You're already a master`);
+  } else if (score >= 3) {
+    $(".new-try").text("Good job, your knowledge is very advanced");
+  } else if (score < 2 && score >= 1) {
     $(".new-try").text("Good try, wanna give it another go?");
   } else {
     $(".new-try").text("Sth went wrong, wanna try again?");
@@ -48,3 +68,16 @@ $("#display-score").click(function () {
 $("#restart").click(function () {
   location.href = location.href;
 });
+
+$(".section-quizsection p").click(function () {
+  icon = $(this).find("i");
+  if (icon.hasClass("right")) {
+    icon.addClass("fa fa-check-square");
+  } else {
+    icon.addClass("fa fa-times");
+  }
+});
+
+if (questionsanswered === 2) {
+  getScore();
+}
