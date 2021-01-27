@@ -164,6 +164,15 @@ nav.filleffect ul li a {
   color: black;
 }
 
+/*sticky navbar CHANGE */
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+
 .logo {
   width: auto;
   height: 160px;
@@ -213,7 +222,9 @@ nav.filleffect ul li a {
 }
 
 .section-aboutus h1 {
+  font-size: 300%;
   text-align: center;
+  margin-top: 30px;
 }
 
 .section-aboutus p {
@@ -335,17 +346,7 @@ nav.filleffect ul li a {
   position: absolute;
   padding-left: 20px;
   padding-right: 20px;
-  bottom: 100px;
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.text-block-main-low {
-  position: absolute;
-  padding-left: 20px;
-  padding-right: 20px;
-  bottom: 100px;
+  bottom: 80px;
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -417,21 +418,31 @@ nav.filleffect ul li a {
 
 /* QUIZ */
 
+.section-quizsection .question-box {
+  margin-bottom: 20px;
+}
 /* classes effects*/
 
 .true {
   background-color: #26cf0f;
-  color: rgb(0, 183, 255);
+  color: #fff;
+  font-weight: 900;
   border: 2px solid rgb(0, 183, 255);
   pointer-events: none;
 }
 .false {
   background-color: red;
-  color: rgba(255, 255, 0, 0.747);
+  color: #fff;
+  font-weight: 900;
   border: 2px solid rgb(0, 183, 255);
   pointer-events: none;
 }
 
+.section-quizsection i {
+  font-size: 120%;
+  margin-left: 10px;
+}
+.
 /*ABOUT US SECTION*/
 
 .section-aboutus,
@@ -526,4 +537,82 @@ footer {
   color: #26cf0f;
   margin-right: 20px;
   font-size: 130%;
+}
+
+/*PARALLAX*/
+
+.bgimg-index1,
+.bgimg-index2,
+.bgimg-index3,
+.bgimg-stake1,
+.bgimg-stake2,
+.bgimg-stake3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-stake1 {
+  background-image: url("../images/foodcontrast.jpg");
+  min-height: 900px;
+}
+
+.bgimg-stake2 {
+  background-image: url("../images/whitebg-lemons.jpg");
+  min-height: 900px;
+}
+
+.bgimg-stake3 {
+  background-image: url("../images/vegetables.jpg");
+  min-height: 600px;
+}
+
+.bgimg-index1 {
+  background-image: url("../images/fruits3.jpg");
+  min-height: 600px;
+}
+.bgimg-index2 {
+  background-image: url("../images/whitebg.jpg");
+  min-height: 500px;
+}
+.bgimg-index3 {
+  background-image: url("../images/food4.jpg");
+  min-height: 600px;
+}
+
+.caption,
+.caption-2,
+.caption-3 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption {
+  left: 0;
+  top: 50%;
+}
+.caption-2 {
+  left: 0%;
+  bottom: 10%;
+}
+
+.caption-3 {
+  left: 40;
+  top: 50%;
+}
+
+.caption-question h2 {
+  margin-bottom: 20px;
+}
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
