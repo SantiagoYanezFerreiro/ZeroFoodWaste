@@ -5,22 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.0/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>Zero Food Waste</title>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
-        (function() {
-            emailjs.init("user_59rL8k6Ivj5HRFMFHHbkg");
-        })();
+        (function () { emailjs.init("user_59rL8k6Ivj5HRFMFHHbkg"); })();
     </script>
-
 </head>
 
 <body>
@@ -29,8 +28,8 @@
         <nav class="navbar navbar-light navbar-expand-md navmenu">
             <a href="index.html"><img src="assets/images/logo.PNG" alt="Company Logo" class="logo"> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Collapsiblenav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div id="Collapsiblenav" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto main-nav navbar-right">
                     <li class="nav-item"><a href="what'satstake.html">What's at Stake </a></li>
@@ -42,33 +41,34 @@
         </nav>
     </header>
 
+
     <section class="container-fluid section-contactform food-image bg-form">
         <div class="row justify-content-center text-center">
             <div class="col-12">
                 <div class="content-box small">
-                    <h1>Reach us out now to donate food for a good cause and contribute to a better world.</h1>
-                    <h2>Also subscribe to our newsletter to get event invitations and the best food waste reducing tips!</h2>
+                    <h2>Reach us out now to donate food for a good cause and contribute to a better world.</h2>
+                    <h2>Also subscribe to our newsletter to get event invitations and the best food waste reducing tips!
+                    </h2>
                 </div>
             </div>
-            <form onsubmit="return sendMail(this);" method="POST" class="contactform content-box small">
+            <form onsubmit="return formSubmit(this);" class="contactform content-box small">
                 <div class="col-12">
                     <input type="text" name="name" id="name" placeholder="First Name" required>
                 </div>
                 <div class="col-12">
-                    <input type="text" name="email" id="lastname" placeholder="Last Name" required>
+                    <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
                 </div>
                 <div class="col-12">
-                    <input type="email" name="requestsummary" id="email " placeholder="Email" required>
+                    <input type="email" name="email" id="email " placeholder="Email" required>
                 </div>
                 <div class="col-12">
-                    <textarea name="comment" placeholder="Leave us a Message"></textarea>
+                    <textarea name="request" id="request" placeholder="Leave us a Message"></textarea>
                 </div>
                 <div class="col-12">
                     <label>&nbsp;</label>
                 </div>
                 <div class="col-12 ">
-                    <button class="standard-btn" type="submit" name="submit" value="Submit">Submit
-                    </button>
+                    <button class="standard-btn" type="submit" name="submit" value="submit">Submit</button>
                 </div>
             </form>
         </div>
@@ -84,9 +84,11 @@
 
                 <div class="col-12 col-md-6  socialmedia">
                     <ul class="smedia-links ">
-                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook "></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook "></i></a>
+                        </li>
                         <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter "></i></a></li>
-                        <li><a href="https://www.instagram.com/ " target="_blank"><i class="fab fa-instagram "></i></a></li>
+                        <li><a href="https://www.instagram.com/ " target="_blank"><i class="fab fa-instagram "></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -97,12 +99,15 @@
     <!-- JQuery -->
     <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js "></script>
+    <script type="text/javascript "
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js "></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js "></script>
+    <script type="text/javascript "
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js "></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js "></script>
-    <script src="assets/js/emailjs.js"></script>
+    <script type="text/javascript "
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js "></script>
+    <script src="assets/js/sendMail.js"></script>
 </body>
 
 </html>
