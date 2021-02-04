@@ -1,5 +1,5 @@
 function formSubmit(contactForm) {
-  emailjs.send("gmail", "foodwastetemplate", {
+  emailjs.send("service_zbsju9a", "foodwastetemplate", {
       "from_name": contactForm.name.value,
       "from_email":contactForm.email.value,
       "message": contactForm.request.value
