@@ -38,153 +38,37 @@
         </nav>
 
     </header>
+    <h1>How much do you really know about Food Waste?</h1>
 
-    <section class="container-fluid section-quizsection">
-        <div class="row">
-            <div class="col-12 bg-quiz">
-                <div class="content-box small">
-                    <h1>
-                        Are you ready to test your Food Waste knowledge? Go for It!
-                    </h1>
-                </div>
-            </div>
+    <div id="container">
 
-            <div class="container-fluid imageblock">
-                <div class="row justify-content-center text-center">
-                    <img src="assets/images/whitebg.jpg" alt="Nature" style="width:100%;" class="img-fluid">
-                    <div class="col-12">
-                        <div class="question-box text-block-main position-center">
-                            <h2>How much food waste produced globally goes to waste?</h2>
-                        </div>
-                        <div class="question-box text-block-main-low position-center">
-                            <p class="btn answer answer-btn right">33%<i class="right" aria-hidden="true"></i></p>
-                            <p class="btn answer answer-btn incorrect">73%<i class="" aria-hidden="true"></i></p>
-                            <p class="btn answer answer-btn incorrect">10%<i class="" aria-hidden="true"></i></p> 
-                        </div>
-                    </div>
-                </div>
+        <div id="start">Start Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
             </div>
-            <div class="container-fluid imageblock">
-                <div class="row justify-content-center text-center">
-                    <img src="assets/images/whitebg.jpg" alt="Nature" style="width:100%;" class="img-fluid">
-                    <div class="col-12">
-                        <div class="question-box text-block-main position-center">
-                            <h2>What is the economical value of food wasted every year in the world?</h2>
-                        </div>
-                        <div class="question-box text-block-main-low position-center">
-                            <p class="btn answer answer-btn right">$10 billion<i class="right" aria-hidden="true"></i></p>
-                            <p class="btn answer answer-btn incorrect">$1 billion<i class="" aria-hidden="true"></i></p>
-                            <p class="btn answer answer-btn incorrect">$1 trillion<i class="" aria-hidden="true"></i></p>
-                        </div>
-                    </div>
-                </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
             </div>
-            
-            <div class="container-fluid imageblock">
-                <div class="row justify-content-center text-center">
-                    <img src="assets/images/whitebg.jpg" alt="Nature" style="width:100%;" class="img-fluid">
-                    <div class="col-12">
-                        <div class="question-box text-block-main position-center">
-                            <h2>What percentage of the total waster supply is used to grow food never eaten?</h2>
-                        </div>
-                        <div class="question-box text-block-main-low position-center">
-                            <p class="btn answer answer-btn incorrect">25%<i class="" aria-hidden="true"></i></p>
-                            <p class="btn answer answer-btn incorrect">5%<i class="" aria-hidden="true"></i></p>
-                            <p class="btn answer answer-btn right">10%<i class="right" aria-hidden="true"></i></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid imageblock">
-                <div class="row justify-content-center text-center">
-                    <img src="assets/images/whitebg.jpg" alt="Nature" style="width:100%;" class="img-fluid">
-                    <div class="col-12">
-                        <div class="question-box text-block-main position-center">
-                            <h2>If food waste was a country, what position would it take among the largest greenhouse gases
-                                emitters?</h2>
-                        </div>
-                        <div class="question-box text-block-main-low position-center">
-                            <p class="btn answer answer-btn right">10th<i class="right" aria-hidden="true"></i></p>
-                            <p class="btn answer answer-btn incorrect">20th<i class="" aria-hidden="true"></i></p>
-                            <p class="btn answer answer-btn incorrect">3rd<i class="" aria-hidden="true"></i></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="container-fluid imageblock">
-                <div class="row justify-content-center text-center">
-                    <img src="assets/images/whitebg.jpg" alt="Nature" style="width:100%;" class="img-fluid">
-                    <div class="col-12">
-                        <div class="question-box text-block-main position-center">
-                            <h2>How much food would be needed to feed the nearly one billion hungry people in the world?</h2>
-                        </div>
-                        <div class="question-box text-block-main-low position-center">
-                                <p class="btn answer answer-btn incorrect">¼ of the wasted food in the US, UK and Europe<i class="" aria-hidden="true"></i></p>
-                                <p class="btn answer answer-btn right">2x the wasted food in the US, UK and Europe<i class="right" aria-hidden="true"></i></p>
-                                <p class="btn answer answer-btn incorrect">The annual wasted food in the US, UK and Europe<i class="" aria-hidden="true"></i></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-fluid imageblock">
-                <div class="row justify-content-center text-center">
-                    <img src="assets/images/whitebg.jpg" alt="Nature" style="width:100%;" class="img-fluid">
-                    <div class="col-12">
-                        <div class="question-box text-block-main position-center">
-                            <h2>What can we do to be able to feed the extra 2.3 billion people that will leave on Earth by 2050?</h2>
-                        </div>
-                        <div class="question-box text-block-main-low position-center">
-                                <p class="btn answer answer-btn incorrect">Either increase global food production by 60-70% or stop wasting food .<i class="" aria-hidden="true"></i></p>
-                                <p class="btn answer answer-btn right">Increase global food production by 300%<i class="right" aria-hidden="true"></i></p>
-                                <p class="btn answer answer-btn incorrect">Increase global food production by 100% and reduce food wasted by 20%.<i class="" aria-hidden="true"></i></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-    </section>
-
-    <!--Score Section-->
-    <section class="container-fluid score-section bg-quiz">
-        <div class="row">
-            <div class="col-12">
-                <p class="get-results-btn btn standard-btn" id="display-score">Get your Score!</p>
-            </div>
+            <div id="progress"></div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="default-show hide-display">
-                    <h1 id="score"></h1>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <div class="hide-display further-action">
-                    <p class="new-try"></p>
-                    <p class="btn standard-btn get-score-btn" id="restart">Try again!</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-6">
-                <div class="hide-show further-action">
-                    <!--<p class="">Curious about the right answers? Get them here</p>-->
-                    <p class="btn standard-btn get-score-btn" href="results.html" role="button" id="checksanswers">Check the correct answers<p/>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!--
-    <div class="image container-fluid">
-        <img src="assets/images/fooddonation.jpg">
-        <div class="text">
-            Text of variable length
-        </div>
+        <div id="scoreContainer" style="display: none"></div>
     </div>
--->
+
+    <h2>And you know the countries that waste the most food? </h2>
+    <section class="map">
+        <div id="map">
+            <p>HIHIHIHIH</p>
+        </div>
+    </section>
+    <script src="newquiz.js"></script>
+
 
     <footer>
         <div class="container-fluid">
@@ -195,9 +79,11 @@
 
                 <div class="col-12 col-md-6  socialmedia">
                     <ul class="smedia-links ">
-                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook "></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook "></i></a>
+                        </li>
                         <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter "></i></a></li>
-                        <li><a href="https://www.instagram.com/ " target="_blank"><i class="fab fa-instagram "></i></a></li>
+                        <li><a href="https://www.instagram.com/ " target="_blank"><i class="fab fa-instagram "></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -216,7 +102,13 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript "
         src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js "></script>
-    <script src="assets/js/quizgame.js"></script>
+    <script src="assets/js/newquiz.js"></script>
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaAwkKXjaTFv_QljhD8do92OIliiVtOF8&callback=initMap"></script>
+    <script src="assets/js/maps.js">
+    </script>
 </body>
 
 </html>
