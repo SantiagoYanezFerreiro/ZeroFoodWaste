@@ -479,7 +479,7 @@ nav.filleffect ul li a {
   font-size: 1.5em;
   font-weight: bolder;
   word-break: break-all;
-  width: 120px;
+  width: 150px;
   height: 150px;
   border: 2px solid black;
   text-align: center;
@@ -524,12 +524,12 @@ nav.filleffect ul li a {
   width: 400px;
   position: absolute;
   right: 0;
-  top: 125px;
+  top: 100px;
   padding: 10px;
 }
 .choice {
   display: inline-block;
-  width: 250px;
+  width: 300px;
   text-align: center;
   border: 1px solid grey;
   border-radius: 5px;
