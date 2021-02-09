@@ -1,3 +1,6 @@
+window.onload = function () {
+        initMap();
+    }
 var markers = [
     {
         "title": 'Italy',
@@ -64,14 +67,12 @@ var markers = [
         
 ];
     
-    window.onload = function () {
-        LoadMap();
-    }
-    function LoadMap() {
+  
+    function initMap() {
         var mapOptions = {
             center: new google.maps.LatLng(markers[0].lat, markers[0].lng),
             zoom: 4,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
+            mapTypeId: google.maps.MapTypeId.SATELLITE 
         };
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
  
@@ -96,198 +97,5 @@ var markers = [
                 });
             })(marker, data);
         }
-    }
- /*var map;
-            var InforObj = [];
-            var centerCords = {
-                lat: -25.344,
-                lng: 131.036
-            };
-            var markersOnMap = [{
-                    placeName: "Demmark",
-                    LatLng: [{
-                        lat: 55.670249,
-                        lng: 10.3333283
-                    }]
-                },
-                {
-                    placeName: "Netherlands",
-                    LatLng: [{
-                        lat: 52.24764975,
-                        lng: 5.54124685
-                    }]
-                },
-                {
-                    placeName: "Germany",
-                    LatLng: [{
-                        lat: 51.0834196,
-                        lng: 10.4234469
-                    }]
-                },
-                {
-                    placeName: "United Kingdom",
-                    LatLng: [{
-                        lat: 54.7023545,
-                        lng: -3.2765753
-                    }]
-                },
-                {
-                    placeName: "Malaysia",
-                    LatLng: [{
-                        lat: 4.5693754 , 
-                        lng: 102.2656823
-                    }]
-                },
-                {
-                    placeName: "Finland",
-                    LatLng: [{
-                        lat: 63.2467777,
-                        lng: 25.9209164
-                    }]
-                },
-                {
-                    placeName: "United States",
-                    LatLng: [{
-                        lat: 39.7837304,
-                        lng: -100.4458825
-                    }]
-                },
-                {
-                    placeName: "Australia",
-                    LatLng: [{
-                        lat: -24.7761086,
-                        lng: 134.755
-                    }]
-                },
-                {
-                    placeName: "Canada",
-                    LatLng: [{
-                        lat: 61.0666922,
-                        lng: -107.991707
-                    }]
-                },
-                {
-                    placeName: "Norway",
-                    LatLng: [{
-                        lat: 64.5731537,
-                        lng: 11.52803644
-                    }]
-                }
-                
-            ];
-
-
-            window.onload = function () {
-                initMap();
-            };
-
-            function addMarkerInfo() {
-                for (var i = 0; i < markersOnMap.length; i++) {
-                    var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
-                        '</h1><p>Lorem ipsum dolor sit amet, vix mutat posse suscipit id, vel ea tantas omittam detraxit.</p></div>';
-
-                    const marker = new google.maps.Marker({
-                        position: markersOnMap[i].LatLng[0],
-                        map: map
-                    });
-
-                    const infowindow = new google.maps.InfoWindow({
-                        content: contentString,
-                        maxWidth: 200
-                    });
-
-                    marker.addListener('click', function () {
-                        closeOtherInfo();
-                        infowindow.open(marker.get('map'), marker);
-                        InforObj[0] = infowindow;
-                    });
-                    // marker.addListener('mouseover', function () {
-                    //     closeOtherInfo();
-                    //     infowindow.open(marker.get('map'), marker);
-                    //     InforObj[0] = infowindow;
-                    // });
-                    // marker.addListener('mouseout', function () {
-                    //     closeOtherInfo();
-                    //     infowindow.close();
-                    //     InforObj[0] = infowindow;
-                    // });
-                }
-            }
-
-            function closeOtherInfo() {
-                if (InforObj.length > 0) {
-                    InforObj[0].set("marker", null);
-                    InforObj[0].close();
-                    InforObj.length = 0;
-                }
-            }
-
-            function initMap() {
-                map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 4,
-                    center: centerCords
-                });
-                addMarkerInfo();
-            }
-
-
-
-
-
-
-
-/*
-function initMap() {
-    var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 3,
-        center: {
-            lat: 46.619261,
-            lng: -33.134766
-        }
-    });
-
-    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-    var locations = [
-        { lat: 55.670249, lng: 10.3333283, markerContent: 'house' },
-        { lat: 52.24764975, lng: 5.54124685, markerContent: 'house' },
-        { lat: 51.0834196 , lng: 10.4234469, markerContent: 'house' },
-        { lat: 54.7023545 , lng: -3.2765753, markerContent: 'house' },
-        { lat: 4.5693754 , lng: 102.2656823, markerContent: 'house' },
-        { lat: 63.2467777 , lng: 25.9209164, markerContent: 'house' },
-        { lat: 39.7837304 , lng: -100.4458825, markerContent: 'house' },
-        { lat: -24.7761086, lng: 134.755, markerContent: 'house' },
-        { lat: 61.0666922 , lng: -107.991707, markerContent: 'house' },
-        { lat: 64.5731537 , lng: 11.52803644, markerContent: 'house' }
-    ];
-
-    
-
-    var markers = locations.map(function(location, i, j) {
-        return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length],
-           
-        });
-        marker.setMap(map);
-            
-            var infowindow = new google.maps.InfoWindow({
-               content:"388-A , Road no 22, Jubilee Hills, Hyderabad Telangana, INDIA-500033"
-            });
-				
-            infowindow.open(map,marker);
-         }
-
-    });
-
-/*   var infoWindow = new google.maps.InfoWindow();
-
-    google.maps.event.addListener(marker, 'click', function () {
-                var locationsContent = location[i][2];
-                infoWindow.setContent(markerContent);
-                infoWindow.open(map, this);
-    });
-  
-    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 }
-*/  
+    
