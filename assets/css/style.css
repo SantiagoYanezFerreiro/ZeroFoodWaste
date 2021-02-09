@@ -90,7 +90,9 @@ p {
 .bgimg-index1 h3,
 .bgimg-index2 h2,
 .bgimg-index3 h2,
-.bgimg-index3 h3 {
+.bgimg-index3 h3,
+.bgimg-stake3 h2,
+.bgimg-stake3 h3 {
   color: #fff;
   font-size: 30px;
 }
@@ -98,6 +100,8 @@ p {
 .bgimg-index2 h2 {
   color: #000;
 }
+
+bgimg-stake3{}
 
 .bgimg-stake1 .caption-middle p {
 }
@@ -109,7 +113,7 @@ p {
 
 header,
 footer {
-  background-color: ;
+  
 }
 
 section {
@@ -126,10 +130,6 @@ section {
 
 .score-section {
   min-height: 20vh;
-}
-
-footer {
-  min-height: 15vh;
 }
 
 /*NAV MENU*/
@@ -207,14 +207,6 @@ nav.filleffect ul li a {
   color: black;
 }
 
-/*sticky navbar CHANGE */
-.navbar-fixed {
-  top: 0;
-  z-index: 100;
-  position: fixed;
-  width: 100%;
-  background-color: #fff;
-}
 
 .logo {
   width: auto;
@@ -259,6 +251,7 @@ nav.filleffect ul li a {
   margin-right: 10%;
 }
 
+
 .section-aboutus p,
 .section-aboutus h1 {
   margin: 0 auto;
@@ -276,14 +269,23 @@ nav.filleffect ul li a {
 }
 .section-aboutus h1 {
 }
+
+
 .small {
   margin: 5% 5%;
 }
 
+
+
 .verysmall {
   margin: 2% 30%;
 }
-
+.small{
+  margin:5% 20%;
+}
+.section-aboutus, .section-whatwereabout, .section-our-numbers, .section-future-plans{
+  margin-bottom:120px;
+}
 .question-box {
   text-align: center;
   margin: 0 auto;
@@ -462,8 +464,8 @@ nav.filleffect ul li a {
 
 /* QUIZ */
 
-.section-quizsection .question-box {
-  margin-bottom: 20px;
+.section-quizcontainer{
+    margin-bottom: 60px;
 }
 
 #container {
@@ -642,12 +644,9 @@ nav.filleffect ul li a {
   margin-bottom: 0px;
 }
 
-.blackbg {
-  background-color: grey;
-  color: #115c07;
-}
 
-.greybg {
+
+.greenbg {
   background-color: #115c07;
 }
 
@@ -662,6 +661,47 @@ img {
 
 .img-container {
   max-height: 600px;
+}
+
+.partner1-img,
+.partner2-img,
+.partner3-img,
+.partner4-img,
+.partner5-img{
+    width: 100px;
+    height: 130px;
+    border-radius: 20px;
+    margin-right:5px;
+    background-position: center center;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.partner1-img {
+    background-image: url("/assets/images/partner.png");
+    background-size: cover;
+}
+
+.partner2-img {
+    background-image: url("/assets/images/partner2.jpg");
+    background-size: cover;
+}
+
+.partner3-img {
+    background-image: url("/assets/images/partner3.jpg");
+    background-size: cover;
+}
+
+.partner4-img {
+    background-image: url("/assets/images/partner4.jpg");
+    background-size: cover;
+}
+
+.partner5-img {
+    background-image: url("/assets/images/partner5.jpg");
+    background-size: cover;
 }
 
 /*CONTACT SECTION*/
@@ -713,6 +753,7 @@ footer {
   color: #fff;
   margin-bottom: 0px;
   text-align: right;
+  height:20px;
 }
 
 .socialmedia,
@@ -757,22 +798,22 @@ footer {
 
 .bgimg-stake1 {
   background-image: url("../images/foodcontrast.jpg");
-  min-height: 700px;
+  min-height: 800px;
 }
 
 .bgimg-stake2 {
   background-image: url("../images/whitebg-lemons.jpg");
-  min-height: 700px;
+  min-height: 800px;
 }
 
 .bgimg-stake3 {
   background-image: url("../images/vegetables.jpg");
-  min-height: 600px;
+  min-height: 800px;
 }
 
 .bgimg-index1 {
   background-image: url("../images/fruits3.jpg");
-  min-height: 600px;
+  min-height: 800px;
 }
 
 .bgimg-index2 {
