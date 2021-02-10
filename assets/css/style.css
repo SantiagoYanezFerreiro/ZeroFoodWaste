@@ -423,7 +423,7 @@ nav.filleffect ul li a {
   background-position: fixed;
   background-size: cover;
   width: 100%;
-  min-height: 800px;
+  min-height: 700px;
 }
 
 .bg-quiz {
@@ -707,8 +707,16 @@ img {
 /*CONTACT SECTION*/
 
 .section-contactform {
-  font-size: 180%;
-  padding: 10px;
+    padding: 10px;
+}
+
+.section-contactform h2{
+  font-size:160%;
+}
+
+.form-cta{
+  margin-top:150px;
+  color:#fff;
 }
 
 .section-contactform form {
@@ -719,7 +727,8 @@ img {
 .section-contactform input,
 textarea {
   width: 600px;
-  height: 40px;
+  height: 50px;
+  
 }
 
 textarea {
@@ -751,15 +760,16 @@ textarea {
 
 footer {
   color: #fff;
-  margin-bottom: 0px;
+  margin-bottom:0px;
   text-align: right;
-  height:20px;
+  height:10px;
 }
 
 .socialmedia,
 .copyright {
   margin: auto 0;
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-bottom:10px;
 }
 
 .copyright p {
