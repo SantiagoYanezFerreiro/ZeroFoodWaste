@@ -8,29 +8,39 @@
 
 ![Zero Food Waste Responsive Design](assets/images/responsivedesign.PNG)
  
-Zero Food Waste is a non-profit association whose mission is to contribute to reducing Global Food Waste. For this purpose 1)it allows companies like restaurants and supermarkets that want to donate food to get in touch through it with charities and other organisations that could use this food. 2) Offers information and a newsletter to raise awareness about this problem and inform users about related events.
-The website provides general statistics and information about Worldwide Food Waste and their future predictions. A quiz to keep users engaged while learning. Also uses the Google Maps API to display the countries that waste the most food globally. The who are we? Page contains info about the company; its history, mission & values and their current & future actions to fight this problem.
+Zero Food Waste is a non-profit association whose mission is to contribute to reducing Global Food Waste. 
+
+For this purpose 1)it allows companies like restaurants and supermarkets that want to donate food to get in touch through it with charities and other organisations that could use this food. 
+2) Offers information and a newsletter to raise awareness about this problem and inform users about related events.
+
+The website provides general statistics and information about Worldwide Food Waste and their future predictions and a quiz to keep users engaged while learning. Also uses the Google Maps API to display the countries that waste the most food globally. 
+The who are we? Page contains info about the company; its history, mission & values and their current & future actions to fight this problem.
 
 ## User Experience
 
-### First Time Visitor Goals
+### Visitors Goals
 Understand the main purpose of the site and get to know the company.
+
 Easily navigate the site 
+
 Check Social Media Sites to know if the organisation is reliable.
 
-
-### Returning Visitor Goals
-### Frequent User Goals
 Get Quizzed about this topic and learn new info in an enjoyable way (Quiz, Page). 
+
 Be able to contact the company to donate (businesses) or receive donated food (charities). 
+
 Get Information about the organisation; it history, accomplishments and future plans. 
+
 Be able to reach out Zero Food Waste through a form for collaborations and general queries.
+
 Have the option to sign up for the newsletter to receive invitations to special events and tips about how to reduce Food Waste. 
 
 
 ### Organisation Goals:
 •	Increase Brand Awareness and Brand Image.
+
 •	Get as many entities and people as possible to contact the company for exchanges of food, possible collaborations, and events. 
+
 •	Grant access to visitors to relevant Food Waste statistics that will raise their awareness about the topic and contribute to reduce their ecological print.
 
 
@@ -38,15 +48,15 @@ Have the option to sign up for the newsletter to receive invitations to special 
 
 ### Colour Scheme
 
-    The two main colours used are White and Green.
+The two main colours used are White and Green.
 
 ### Typography
 
-    The Lato font is the main font of the website with Arial and sans-seriff as fallback. I opted for Lato because it's a sans-seriff that looks stylish and is easy to read.
+The Lato font is the main font of the website with Arial and sans-seriff as fallback. I opted for Lato because it's a sans-seriff that looks stylish and is easy to read.
 
 ### Imagery
 
-    I used a lot of Food Waste/Food Images, mainly to make the website look better and as background for the content.
+I used a lot of Food Waste/Food Images, mainly to make the website look better and as background for the content.
 
 ## Wireframes
 
@@ -117,15 +127,19 @@ Have the option to sign up for the newsletter to receive invitations to special 
 ## Features to Implement in the future
 
 • An Events Page with external and internal events visitors can attend (Conferences, Meetups, Fairs, etc).
+
 • Extend it to Waste Recycle and facilitate ways for people to recycle more.
+
 • A Personalised Section with Log In/Sign Up functions. There businesses can publish ads about Food they want to donate and get in touch with charities/NGOs.
 
 ## Technologies Used
 
 ### Languages Used
 
-• HTML5,
+• HTML5
+
 • CSS3 
+
 • JavaScript 
 
 ### Frameworks, Libraries & Programs Used
@@ -150,35 +164,41 @@ Have the option to sign up for the newsletter to receive invitations to special 
 
 
 ## Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-    W3C Markup Validator - Results
-    W3C CSS Validator - Results
+The code was validated with the W3C Markup Validator and W3C CSS Validator Services to look for syntax errors.
+The website passed both tests succesfully with no errors at all.
+  
 
 ### User Story Testing 
-#### First Time Visitor Goals
-#### Returning Visitor Goals
-#### Frequent User Goals
+#### Visitors Goals
 
 • Be able to contact the company to donate (businesses) or receive donated food (charities). 
 It can be done through the form by selecting the preferred option. Visitors can also send a message with it.
+
 • Get exposed to relevant information that raise awareness of the Food Waste problem and motivate people to waste less food. 
 The city is full of related information, users can get quizzed about it and also get additional info through the newsletter.
+
 • Get Quizzed about this topic and learn new info in an enjoyable way (Quiz, Page). 
 The quiz section allows user to do it getting feedback through their score.
+
 •  Get Information about the organisation; its history, accomplishments and future plans. 
 All of it displayed in the About Us section.
+
 •  Be able to reach out Zero Food Waste through a form for collaborations and general queries. 
 Can be done through the main form.
+
 •  Have the option to sign up for the newsletter to receive invitations to special events and tips about how to reduce Food Waste.
 Same as previous user story.
 
 
 #### Further Testing
 
-The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-A large amount of testing was done to ensure that all pages were linking correctly.
-Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+The Website was tested on Google Chrome, Explorer, Opera and Microsoft Edge.
+
+The website was also viewed on desktop, tablets and several phone devices (Huawei, Iphone, Xiaomi).
+
+All links were double checked to ensure they work properly.
+
+Friends and family members were also asked to check the site to give feedback and detect errors on it.
 
 
 #### Known Bugs  & Problems 
@@ -189,6 +209,7 @@ Friends and family members were asked to review the site and documentation to po
 
 ### GitHub Pages
 The project was developed using GitPod, committed to git and pushed to GitHub. It was then deployed with Github pages from its GitHub repository following these steps:
+
 •	Log in into GitHub.
 
 •	Select the repository and open settings.
@@ -221,7 +242,7 @@ Used the Bootstrap library to make the site responsive. Also took advantages of 
 
 
 ## Media
-•	Pictures are from Unsplash.com and Google Images.
+•	Pictures are from Unsplash.com, Pexels and Google Images.
 •	The favicon was created using the resource ![Favicon](https://realfavicongenerator.net/)
 
 
