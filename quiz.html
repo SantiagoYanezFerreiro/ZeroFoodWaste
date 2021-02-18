@@ -36,49 +36,60 @@
                 </ul>
             </div>
         </nav>
-
     </header>
-    <h1>How much do you really know about Food Waste?</h1>
+
+    <h1 class="darkgreen">How much do you really know about Food Waste?</h1>
 
     <div id="container">
-
-        <div id="start">Start Quiz!</div>
+        <div id="startbtn">Start Quiz!</div>
         <div id="quiz" style="display: none">
-            <div id="question"></div>
-            <div id="qImg"></div>
-            <div id="choices">
-                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
-                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
-                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            <div id="questiontext"></div>
+            <div id="questionImage"></div>
+            <div id="options">
+                <div class="option" id="A" onclick="AddScoreBgIfAnswerCorrect('A')"></div>
+                <div class="option" id="B" onclick="AddScoreBgIfAnswerCorrect('B')"></div>
+                <div class="option" id="C" onclick="AddScoreBgIfAnswerCorrect('C')"></div>
             </div>
-            <div id="timer">
+            <div id="stopWatch">
                 <div id="counter"></div>
-                <div id="btimeGauge"></div>
-                <div id="timeGauge"></div>
+                <div id="btimeLeft"></div>
+                <div id="timeLeft"></div>
             </div>
-            <div id="progress"></div>
+            <div id="progressCircles"></div>
         </div>
         <div id="scoreContainer" style="display: none"></div>
+        <button type="button" ID="resetButton" class="standard-btn" onclick="reloadP();" value="Try Again?"
+            style="display: none;" />
+        Wanna Try Again?
+        </button>
+        <button type="button" ID="infoButton" class="standard-btn"
+            onclick="window.open('https://www.theworldcounts.com/challenges/consumption/foods-and-beverages/food-waste-facts/story','_blank')"
+            value="Try Again?" style="display: none;" />
+        More Interesting Info
+        </button>
     </div>
-
-    <h2>And you know the countries that waste the most food? </h2>
+    <!-- 
+    https://comparecamp.com/food-waste-statistics/
+    https://stopwastingfoodmovement.org/food-waste/food-waste-facts/
+    https://www.conserve-energy-future.com/causes-effects-solutions-food-waste.php
+-->
+    <h2 class="map-title darkgreen">Click on the map to know more about the Top Food Wasting Countries! </h2>
     <section class="map">
         <div id="map">
-            <p>HIHIHIHIH</p>
         </div>
     </section>
-    <script src="newquiz.js"></script>
+
 
 
     <footer>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row justify-content-center text-center">
                 <div class="col-12 col-md-6 copyright">
                     <p>Copyright © 2020 Zero Food Waste</p>
                 </div>
 
                 <div class="col-12 col-md-6  socialmedia">
-                    <ul class="smedia-links ">
+                    <ul class="smedia-links">
                         <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook "></i></a>
                         </li>
                         <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter "></i></a></li>
@@ -102,13 +113,14 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript "
         src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js "></script>
-    <script src="assets/js/newquiz.js"></script>
+
     <script
         src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaAwkKXjaTFv_QljhD8do92OIliiVtOF8&callback=initMap"></script>
     <script src="assets/js/maps.js">
     </script>
+    <script src="assets/js/newquiz.js"></script>
 </body>
 
 </html>

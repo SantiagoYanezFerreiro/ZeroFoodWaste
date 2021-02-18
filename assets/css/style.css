@@ -52,7 +52,6 @@ h1,
 h2 {
   font-weight: 700;
   word-spacing: 5px;
-
 }
 
 h1 {
@@ -69,6 +68,22 @@ h3 {
 
 h4 {
   font-size: 130%;
+}
+
+.darkgreen:after {
+    height: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 150px;
+    background-color: #000;
+    content: ' ';
+    display: block;
+}
+
+
+
+.darkgreen{
+  color:#115c07;
 }
 
 p {
@@ -101,7 +116,9 @@ p {
   color: #000;
 }
 
-bgimg-stake3{}
+bgimg-stake3{
+  color:#115c07;
+}
 
 .bgimg-stake1 .caption-middle p {
 }
@@ -270,12 +287,9 @@ nav.filleffect ul li a {
 .section-aboutus h1 {
 }
 
-
 .small {
   margin: 5% 5%;
 }
-
-
 
 .verysmall {
   margin: 2% 30%;
@@ -472,25 +486,24 @@ nav.filleffect ul li a {
   margin: 20px auto;
   background-image: url("/assets/images/quizcontainerbg4.jpg");
   background-size: 700px 300px;
-  height: 300px;
   width: 700px;
-  border-radius: 5px;
+  height: 300px;
   box-shadow: 0px 5px 15px 0px;
+  border-radius: 4px;  
   position: relative;
-   margin-bottom:100px;
-   margin-top:50px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
- 
+  margin-bottom:100px;
+  margin-top:50px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
-#start {
+#startbtn {
+  width: 150px;
+  height: 100px;
   font-size: 1.5em;
   font-weight: bolder;
   word-break: break-all;
-  width: 150px;
-  height: 100px;
   background-color:white;
   border: 2px solid black;
   text-align: center;
@@ -501,112 +514,125 @@ nav.filleffect ul li a {
   color: black;
 }
 
-#start:hover {
-  border: 3px solid lightseagreen;
-  color: lightseagreen;
+#startbtn:hover {
+  border: 6px solid #115c07;
+  color: #115c07;
 }
 
-#qImg {
+#questionImage {
   width: 200px;
   height: 200px;
-  position: absolute;
   left: 0px;
   top: 0px;
+  position: absolute;
+  
 }
-#qImg img {
+#questionImage img {
+  border-top-left-radius: 5px;
   width: 200px;
   height: 200px;
-  border-top-left-radius: 5px;
+  
 }
 
-#question {
-  width: 500px;
+#questiontext {
   height: 125px;
+  width: 500px;
   position: absolute;
-  right: 0;
   top: 0;
+  right: 0;
 }
-#question p {
+#questiontext p {
+  font-size: 1.25em;
   margin: 0;
   padding: 15px;
-  font-size: 1.25em;
+  
 }
 
-#choices {
-  width: 400px;
-  position: absolute;
+#options {
   right: 0;
   top: 100px;
   padding: 10px;
+  width: 400px;
+  position: absolute;
+  
 }
-.choice {
-  display: inline-block;
-  width: 300px;
-  text-align: center;
-  border: 1px solid grey;
+
+.option {
+  border: 1px solid #115c07;
   border-radius: 5px;
   cursor: pointer;
   padding: 5px;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  
 }
-.choice:hover {
-  border: 2px solid grey;
+.option:hover {
+  border: 2px solid #115c07;
   font-weight: bold;
 }
 
-#timer {
-  position: absolute;
+#stopWatch {
   height: 100px;
   width: 200px;
   bottom: 0px;
+  position: absolute;
   text-align: center;
 }
 #counter {
   font-size: 3em;
 }
-#btimeGauge {
-  width: 150px;
-  height: 10px;
-  border-radius: 10px;
-  background-color: lightgray;
-  margin-left: 25px;
+#btimeLeft {
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left: 25px;
+    width: 150px;
+    height: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
-#timeGauge {
-  height: 10px;
-  border-radius: 10px;
-  background-color: mediumseagreen;
+#timeLeft {
   margin-top: -10px;
   margin-left: 25px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #115c07;
 }
-#progress {
+#progressCircles {
+  padding: 5px;
+  text-align: right;
   width: 500px;
   position: absolute;
   bottom: 0px;
   right: 0px;
-  padding: 5px;
-  text-align: right;
 }
 .prog {
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
   width: 25px;
   height: 25px;
   border: 1px solid #000;
   display: inline-block;
-  border-radius: 50%;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 #scoreContainer {
   margin: 20px auto;
   background-image: url("/assets/images/quizcontainerbg5.jpg");
   background-size: 700px 300px;
   background-position:center;
-  
   opacity: 0.8;
-  height: 300px;
   width: 700px;
-  border-radius: 5px;
-  box-shadow: 0px 5px 15px 0px;
+  height: 300px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 16px 0px;
   position: relative;
   display: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 #scoreContainer img {
   position: absolute;
@@ -616,17 +642,17 @@ nav.filleffect ul li a {
   width: auto;
 }
 #scoreContainer p {
-  position: absolute;
-  display: block;
-  width: 59px;
-  height: 59px;
-  top: 130px;
-  left: 320px;
   font-size: 3em;
   font-weight: bold;
   text-align: center;
   font-weight:900;
   color:#fff;
+  position: absolute;
+  display: block;
+  width: 59px;
+  height: 59px;
+  top: 130px;
+  left: 300px;
 }
 
 #resetButton{
@@ -808,22 +834,26 @@ label{
 
 footer {
   color: #fff;
-  margin-bottom:0px;
-  text-align: right;
-  height:10px;
+  margin-bottom:10px;
+  height:20px;
+}
+
+#overflow{box-shadow:5px -10px 1px 0px rgba(0,0,0,0.16);
 }
 
 .socialmedia,
 .copyright {
+ 
   margin: auto 0;
-  margin-top: 10px;
   margin-bottom:10px;
-}
+   margin-top:20px;
+  }
 
 .copyright p {
   color: #115c07;
   font-size: 110%;
   font-weight: 600;
+  text-align:center;
 }
 
 .socialmedia li {
@@ -836,7 +866,12 @@ footer {
   color: #115c07;
   margin-right: 20px;
   font-size: 130%;
+  text-align:center;
 }
+
+
+
+
 
 /*PARALLAX*/
 
@@ -936,6 +971,7 @@ footer {
 .section-foodwasteinfo {
 }
 .section-foodwasteinfo .col-6 {
+
 }
 
 .big-font {
@@ -982,4 +1018,54 @@ div#map {
 .textbox-big {
   width: 1200px;
   height: 400px;
+}
+
+.section-thankyoupage{
+  margin-top:40px;
+  margin-bottom:40px;
+}
+.section-thankyoupage h1, .section-thankyoupage img{
+  margin-bottom:60px;
+}
+
+/*MEDIA QUERIES*/
+
+
+/*Big Tables to 1170px (container-fluid Bootstrap Class max-width */
+
+@media only screen and (max-width:1170px) {
+  h1, h2 {
+    font-size:50%;
+  }
+}
+
+
+/*Small tablets to big tablets - from 768px to 1023px  */
+
+@media only screen and (max-width:1023px) {
+    
+}
+
+
+/*Small phones to small tablets - from 481 to 767 px  */
+
+@media only screen and (max-width: 767px) {
+  h1,h2 {
+    
+  }
+
+  .bgimg-index1,
+  .bgimg-index2 ,
+  .bgimg-index3 {
+   
+  }
+    
+}
+
+
+/*Small phones - from 0 to 480 px  */
+
+@media only screen and (max-width:480px) {
+
+
 }
