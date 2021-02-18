@@ -132,6 +132,8 @@ I used a lot of Food Waste/Food Images, mainly to make the website look better a
 
 • A Personalised Section with Log In/Sign Up functions. There businesses can publish ads about Food they want to donate and get in touch with charities/NGOs.
 
+• Create the newsletter and automate email sending.
+
 ## Technologies Used
 
 ### Languages Used
