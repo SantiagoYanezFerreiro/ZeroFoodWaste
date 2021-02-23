@@ -484,7 +484,7 @@ nav.filleffect ul li a {
 
 #container {
   margin: 20px auto;
-  background-image: url("/assets/images/quizcontainerbg4.jpg");
+  background-image: url("../images/quizcontainerbg4.jpg");
   background-size: 700px 300px;
   width: 700px;
   height: 300px;
@@ -619,7 +619,7 @@ nav.filleffect ul li a {
 }
 #scoreContainer {
   margin: 20px auto;
-  background-image: url("/assets/images/quizcontainerbg5.jpg");
+  background-image: url("../images/quizcontainerbg5.jpg");
   background-size: 700px 300px;
   background-position:center;
   opacity: 0.8;
@@ -740,27 +740,27 @@ img {
 }
 
 .partner1-img {
-    background-image: url("/assets/images/partner.png");
+    background-image: url("../images/partner.png");
     background-size: cover;
 }
 
 .partner2-img {
-    background-image: url("/assets/images/partner2.jpg");
+    background-image: url("../images/partner2.jpg");
     background-size: cover;
 }
 
 .partner3-img {
-    background-image: url("/assets/images/partner3.jpg");
+    background-image: url("../images/partner3.jpg");
     background-size: cover;
 }
 
 .partner4-img {
-    background-image: url("/assets/images/partner4.jpg");
+    background-image: url("../images/partner4.jpg");
     background-size: cover;
 }
 
 .partner5-img {
-    background-image: url("/assets/images/partner5.jpg");
+    background-image: url("../assets/images/partner5.jpg");
     background-size: cover;
 }
 
