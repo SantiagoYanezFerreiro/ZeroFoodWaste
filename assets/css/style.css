@@ -690,7 +690,7 @@ nav.filleffect ul li a {
   font-size: 120%;
   margin-left: 10px;
 }
-.
+
 /*ABOUT US SECTION*/
 
 .section-aboutus,
@@ -698,6 +698,7 @@ nav.filleffect ul li a {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 
 .section-aboutus h1,
 .section-whatwereabout h2,
@@ -736,6 +737,7 @@ img {
     border-radius: 20px;
     margin-right:5px;
     background-position: center center;
+    margin-bottom:20px;
    
 }
 
