@@ -64,43 +64,60 @@ I used a lot of Food Waste/Food Images, mainly to make the website look better a
    
 ![Home Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframehome.PNG)
 
+
+
 ### Home Page Mobile Layout
 
 ![Home Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframehomemobile.PNG)
+
 
 
 ### What's at stake
 
 ![Join Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframewhat'satstake.PNG)
 
+
+
 ### What's at Stake Mobile Layout
 
 ![Join Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframewhat'satstakemobile.PNG)
    
+
+
 ### Quiz Page
    
 ![Classes Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframequiz.PNG)
+
+
 
 ### Quiz Page Mobile Layout
 
 ![Classes Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframequizmobile.PNG)
 
+
+
 ### About Us Page
 
 ![Contact Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframecontact.PNG)
 
+
+
 ### About Us Mobile Layout
 
 ![Contact Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframecontactmobile.PNG)
+
+
 
 ### Contact Page
 
 ![Contact Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframeaboutus.PNG)
 
 
+
 ### Contact Page Mobile Layout
 
 ![Contact Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframeaboutusmobile.PNG)
+
 
 
 ## Features
@@ -168,7 +185,9 @@ I used a lot of Food Waste/Food Images, mainly to make the website look better a
 ## Testing
 The code was validated with the W3C Markup Validator and W3C CSS Validator Services to look for syntax errors.
 The website passed both tests succesfully with no errors at all.
-  
+
+### High Level Test Classes
+![High Level Test Classes](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/HighLevelTestCases.PNG)
 
 ### User Story Testing 
 #### Visitors Goals
@@ -191,6 +210,11 @@ Can be done through the main form.
 •  Have the option to sign up for the newsletter to receive invitations to special events and tips about how to reduce Food Waste.
 Same as previous user story.
 
+
+### Test Results
+![Test Results](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/TestResults.PNG)
+
+## Issues & Problems found during Testing
 
 #### Further Testing
 
