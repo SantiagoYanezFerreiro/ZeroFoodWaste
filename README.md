@@ -71,7 +71,7 @@ I used a lot of Food Waste/Food Images, mainly to make the website look better a
 
 ### What's at stake
 
-![Join Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframewhat'satstake.png)
+![Join Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframewhat'satstake.PNG)
 
 ### What's at Stake Mobile Layout
 
