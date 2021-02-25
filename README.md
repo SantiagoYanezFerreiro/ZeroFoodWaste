@@ -62,11 +62,11 @@ I used a lot of Food Waste/Food Images, mainly to make the website look better a
 
 ### Home Page
    
-![Home Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframehome.png)
+![Home Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframehome.PNG)
 
 ### Home Page Mobile Layout
 
-![Home Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframehomemobile.png)
+![Home Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframehomemobile.PNG)
 
 
 ### What's at stake
@@ -75,32 +75,32 @@ I used a lot of Food Waste/Food Images, mainly to make the website look better a
 
 ### What's at Stake Mobile Layout
 
-![Join Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframewhat'satstakemobile.png)
+![Join Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframewhat'satstakemobile.PNG)
    
 ### Quiz Page
    
-![Classes Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframequiz.png)
+![Classes Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframequiz.PNG)
 
 ### Quiz Page Mobile Layout
 
-![Classes Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframequizmobile.png)
+![Classes Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframequizmobile.PNG)
 
 ### About Us Page
 
-![Contact Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframecontact.png)
+![Contact Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframecontact.PNG)
 
 ### About Us Mobile Layout
 
-![Contact Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframecontactmobile.png)
+![Contact Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframecontactmobile.PNG)
 
 ### Contact Page
 
-![Contact Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframeaboutus.png)
+![Contact Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframeaboutus.PNG)
 
 
 ### Contact Page Mobile Layout
 
-![Contact Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframeaboutusmobile.png)
+![Contact Page Mobile](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframeaboutusmobile.PNG)
 
 
 ## Features
