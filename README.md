@@ -121,15 +121,15 @@ I used a lot of Food Waste/Food Images, mainly to make the website look better a
 
 ### Modifications from the Original Wireframes
 
-I thought it was better to speak about general information about the company like its mission, history and so on in a separate section called about us.
+• I thought it was better to speak about general information about the company like its mission, history and so on in a separate section called about us.
 This way it won't deviate the attention of visitors from the main purposes of the page and the website will be better structured.
 
 
-Prefered to create a quiz that starts after pressing a button instead of ocupying a lot of space by displaying all questions on the quiz starting page vertically.
+• Prefered to create a quiz that starts after pressing a button instead of ocupying a lot of space by displaying all questions on the quiz starting page vertically.
 I think it looks way better and visitors only see the most relevant part of the quiz for them for the moment.
 
 
-I though it was better to include info about the company partners in the about page instead of in the contact page.
+• I though it was better to include info about the company partners in the about page instead of in the contact page.
 
 
 
