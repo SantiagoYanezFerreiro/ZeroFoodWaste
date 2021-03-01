@@ -70,6 +70,7 @@ h4 {
   font-size: 130%;
 }
 
+/*
 .darkgreen:after {
     height: 5px;
     margin: 0 auto;
@@ -79,8 +80,7 @@ h4 {
     content: ' ';
     display: block;
 }
-
-
+*/
 
 .darkgreen{
   color:#115c07;
@@ -120,34 +120,16 @@ bgimg-stake3{
   color:#115c07;
 }
 
-.bgimg-stake1 .caption-middle p {
-}
-
 .big-font {
   font-size: 1.6rem;
   font-weight: 600;
-}
-
-header,
-footer {
-  
 }
 
 section {
   min-height: 40vh;
 }
 
-.section-contactform {
-  min-height: 90vh;
-}
 
-.section-contactform footer {
-  min-height: 5vh;
-}
-
-.score-section {
-  min-height: 20vh;
-}
 
 /*NAV MENU*/
 
@@ -164,29 +146,6 @@ section {
   display: inline;
 }
 
-nav.filleffect ul li a {
-  position: relative;
-}
-
-nav.filleffect ul li a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: ".";
-  color: transparent;
-  background: yellow;
-  height: 1px;
-}
-
-nav.filleffect ul li a:after {
-  text-align: left;
-  content: ".";
-  margin: 0;
-  opacity: 0;
-}
 nav.filleffect ul li a:hover {
   color: #fff;
   z-index: 1;
@@ -224,67 +183,11 @@ nav.filleffect ul li a {
   color: black;
 }
 
-
 .logo {
   width: auto;
   height: 120px;
   float: left;
   margin-left: 0px;
-}
-
-.content-box,
-.content-box-green,
-.question-box,
-.question-box-green,
-.answer {
-  background-color: #fff;
-  border-radius: 25px;
-  padding: 5px 5px;
-  vertical-align: center;
-  margin: 0 auto;
-}
-
-.content-box,
-.question-box,
-.answer {
-  border: 4px solid #115c07;
-  text-transform: capitalize;
-  font-size: 15px;
-}
-
-.content-box-green,
-.question-box-green {
-  border: 4px solid #26cf0f;
-}
-
-.content-box p,
-.content-box-options {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.content-box-options {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-
-.section-aboutus p,
-.section-aboutus h1 {
-  margin: 0 auto;
-}
-
-.section-aboutus h1 {
-  font-size: 300%;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
-
-.section-aboutus p {
-  text-align: left;
-}
-.section-aboutus h1 {
 }
 
 .small {
@@ -295,29 +198,12 @@ nav.filleffect ul li a {
   margin: 2% 30%;
 }
 .small{
-  margin:5% 20%;
+  margin:5% 15%;
 }
 .section-aboutus, .section-whatwereabout, .section-our-numbers, .section-future-plans{
-  margin-bottom:120px;
-}
-.question-box {
-  text-align: center;
-  margin: 0 auto;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-bottom:50px;
 }
 
-.question {
-  margin-top: 100px;
-  padding-top: 40px;
-  margin-bottom: 20px;
-}
-
-.answer {
-  margin-left: 20%;
-  margin-right: 20%;
-  text-align: center;
-}
 
 #display-score {
   margin-top: 60px;
@@ -370,8 +256,6 @@ nav.filleffect ul li a {
   margin-bottom: 3px;
 }
 
-.form-btn {
-}
 
 .addbuttonmargin {
   margin-top: 45px;
@@ -392,38 +276,12 @@ nav.filleffect ul li a {
 .text-block p {
   text-align: center;
 }
-.text-block-main {
-  position: absolute;
-  padding-left: 20px;
-  padding-right: 20px;
-  bottom: 250px;
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.text-block-main-low {
-  position: absolute;
-  padding-left: 20px;
-  padding-right: 20px;
-  bottom: 80px;
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-}
 
 .text-block {
   position: absolute;
   padding-left: 20px;
   padding-right: 20px;
   bottom: 20px;
-}
-.position-left {
-  left: 40px;
-}
-
-.position-right {
-  right: 40px;
 }
 
 .position-center {
@@ -449,36 +307,8 @@ nav.filleffect ul li a {
   min-height: 40vh;
 }
 
-.bg-mission {
-  background-image: url("../images/greensfruit.jpg");
-  background-repeat: no-repeat;
-  background-position: fixed;
-  background-size: cover;
-  width: 100%;
-  min-height: 500px;
-}
-
-.bg-white,
-.bg-white-short {
-  background-color: #fff;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-
-.bg-white {
-  min-height: 80vh;
-}
-
-.bg-white-short {
-  min-height: 400px;
-}
-
 /* QUIZ */
-
-.section-quizcontainer, .map-title{
+.section-quizcontainer, .map-heading{
     margin-bottom: 60px;
 }
 
@@ -655,6 +485,10 @@ nav.filleffect ul li a {
   left: 300px;
 }
 
+.score-section {
+  min-height: 20vh;
+}
+
 #resetButton{
   position: relative;
   display: none;
@@ -669,34 +503,32 @@ nav.filleffect ul li a {
   left:420px;
 }
 
-/* classes effects*/
-
-.true {
-  background-color: #26cf0f;
-  color: #fff;
-  font-weight: 900;
-  border: 2px solid rgb(0, 183, 255);
-  pointer-events: none;
-}
-.false {
-  background-color: red;
-  color: #fff;
-  font-weight: 900;
-  border: 2px solid rgb(0, 183, 255);
-  pointer-events: none;
-}
-
-.section-quizsection i {
-  font-size: 120%;
-  margin-left: 10px;
-}
-
 /*ABOUT US SECTION*/
+
+.section-aboutus p,
+.section-aboutus h1 {
+  margin: 0 auto;
+}
+
+.section-aboutus h1 {
+  font-size: 300%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.section-aboutus p {
+  text-align: left;
+}
 
 .section-aboutus,
 .section-partners {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.aboutusimg{
+  margin-bottom:20px;
 }
 
 
@@ -709,13 +541,31 @@ nav.filleffect ul li a {
   letter-spacing: -.03125rem;
 }
 
-
 .greenbg {
   background-color: #115c07;
 }
 
 .section-partners .content-box {
   margin-top: 0px;
+  margin-left: 30%;
+  margin-right:30%;
+  margin-bottom:20px;
+
+}
+
+.content-box
+{
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 5px 5px;
+  vertical-align: center;
+  margin: 0 auto;
+}
+
+.content-box {
+  border: 4px solid #115c07;
+  text-transform: capitalize;
+  font-size: 15px;
 }
 
 img {
@@ -777,7 +627,7 @@ img {
 }
 
 .form-cta{
-  margin-top:150px;
+  margin-top:100px;
   color:#fff;
 }
 
@@ -790,7 +640,6 @@ img {
 textarea {
   width: 600px;
   height: 50px;
-  
 }
 
 textarea {
@@ -832,6 +681,14 @@ label{
   -o-border-radius: 10%;
 }
 
+.section-contactform {
+  min-height: 90vh;
+}
+
+.section-contactform footer {
+  min-height: 5vh;
+}
+
 /*FOOTER*/
 
 footer {
@@ -845,8 +702,7 @@ footer {
 
 .socialmedia,
 .copyright {
- 
-  margin: auto 0;
+   margin: auto 0;
   margin-bottom:10px;
    margin-top:20px;
   }
@@ -870,9 +726,6 @@ footer {
   font-size: 130%;
   text-align:center;
 }
-
-
-
 
 
 /*PARALLAX*/
@@ -970,17 +823,12 @@ footer {
   bottom: 30%;
 }
 
-.section-foodwasteinfo {
-}
-.section-foodwasteinfo .col-6 {
-
-}
-
 .big-font {
   margin-left: 10%;
   margin-right: 10%;
 }
 
+/* MAP */
 div#map {
     min-height: 360px;
 }
@@ -996,32 +844,8 @@ div#map {
   letter-spacing: 10px;
 }
 
-.textbox,
-.textbox-big {
-  margin-top: 50px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #fff;
-  position: absolute;
-  opacity: 0.9;
-  top: -10px;
-  text-align: center;
-  border: 2px solid black;
-  margin-bottom: 20px;
-}
 
-.textbox {
-  width: 1100px;
-  height: 350px;
-}
-
-.textbox-big {
-  width: 1200px;
-  height: 400px;
-}
-
+/* THANK YOU SECTION */
 .section-thankyoupage{
   margin-top:40px;
   margin-bottom:40px;
@@ -1036,38 +860,272 @@ div#map {
 /*Big Tables to 1170px (container-fluid Bootstrap Class max-width */
 
 @media only screen and (max-width:1170px) {
-  h1, h2 {
-    font-size:50%;
-  }
+  
 }
 
 
 /*Small tablets to big tablets - from 768px to 1023px  */
 
 @media only screen and (max-width:1023px) {
-    
+   .small{
+  margin:0% 10%;
+}
+
+.section-aboutus, .section-whatwereabout, .section-our-numbers, .section-future-plans{
+  margin-bottom:50px;
+}    
+
+.section-aboutus h1,
+.section-whatwereabout h2,
+.section-future-plans h2,
+.section-our-numbers h2,
+.map-heading,
+.quizheading-{
+    font-size: 2.5rem;
+}
+
+p{
+  font-size: 0.9rem;
+  max-width: 110ch;
+}
+
+.content-box{
+  padding:3px;
 }
 
 
 /*Small phones to small tablets - from 481 to 767 px  */
 
 @media only screen and (max-width: 767px) {
-  h1,h2 {
-    
+   .main-nav{
+     margin-bottom:20px;
+   }
+   .nav-item{
+     margin-bottom:10px;
+   }
+  
+  .form-cta{
+   font-size: 80%;
   }
 
-  .bgimg-index1,
-  .bgimg-index2 ,
-  .bgimg-index3 {
-   
+.section-contactform input,
+  textarea {
+  width: 420px;
+  height: 50px;
+}   
+input[type=checkbox]{
+  width:20px;
+  height:20px;
+  margin-top:0px;
+}
+
+.formbtn{
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+label{
+  margin-top:10px;
+  font-size:18px;
+  font-weight:bolder;
+}
+
+.form-cta{
+  margin-top:30px;
+  margin-bottom:10px;
+}
+
+.section-aboutus h1,
+.section-whatwereabout h2,
+.section-future-plans h2,
+.section-our-numbers h2
+.map-heading,
+.quizheading,
+.section-general-info-company h1,
+.section-general-info-company h2,
+.section-how-to-take-action h2,
+.section-general-info h2{
+    font-size:2.0rem;
+}
+
+.section-partners h2{
+  font-size: 1.6rem;
+}
+
+.section-aboutus, .section-whatwereabout, .section-our-numbers, .section-future-plans{
+  
+}
+
+p{
+  max-width: 90ch;
+}
+
+.content-box{
+  padding:0px;
+}
+
+.socialmedia,
+.copyright {
+   margin-bottom:5px;
+   margin-top:5px;
   }
-    
+.small{
+  margin:5% 5%;
+}
+
+.aboutusimg{
+  margin-bottom:30px;
+}
+
+.bgimg-stake1,
+.bgimg-stake2
+{
+  min-height:1000px;
+}
+
+.bgimg-stake2{
+  min-height:1300px;
+}
+.caption{
+  top:20%;
+}
+
+.caption-middle{
+    top: -50%;
+}
+.big-font {
+  font-size: 1.4rem;
+ 
+}
+
+.section-foodwastesources h2{
+  font-size: 2rem;
+}
+
+.section-foodwastesources h3{
+  font-size: 1.3rem;
+}
+
+.section-foodwastesources h4{
+  font-size:1.2rem;
+}
+
+#container{
+  width:600px;
+}
+
+#scoreContainer{
+  width:600px;
+}
+#startbtn {
+  left: 250px;
+}
+
+#scoreContainer img {
+  position: absolute;
+  top: 20px;
+  left: 270px;
+  height: 150px;
+  width: auto;
+}
+#scoreContainer p {
+  font-size: 3em;
+  width: 59px;
+  height: 59px;
+  top: 130px;
+  left: 300px;
+}
+
+#resetButton{
+  bottom:110px;
+  left:40px;
+}
+
+#infoButton{
+  bottom:180px;
+  left:420px;
 }
 
 
 /*Small phones - from 0 to 480 px  */
-
 @media only screen and (max-width:480px) {
+.form-cta{
+   font-size: 70%;
+}
 
+.section-contactform input,
+  textarea {
+  width: 300px;
+  height: 50px;
+}   
 
+input[type=checkbox]{
+  width:15px;
+  height:15px;
+}
+
+label{
+  margin-top:10px;
+  font-size:18px;
+  font-weight:bolder;
+}
+
+.formbtn{
+  padding: 12px 18px;
+  font-size: 16px;
+}
+
+.socialmedia,
+.copyright {
+   margin-bottom:0px;
+   margin-top:0px;
+  }
+
+.section-aboutus h1,
+.section-whatwereabout h2,
+.section-future-plans h2,
+.section-our-numbers h2,
+.map-heading,
+.quizheading,
+.section-general-info-company h1,
+.section-general-info-company h2,
+.section-how-to-take-action h2,
+.section-general-info h2
+{
+    font-size:1.6rem;
+}
+
+.section-partners h2{
+  font-size:1.3rem;
+}
+
+.content-box{
+  padding:5px;
+}
+
+p{
+  margin-bottom:20px;
+}
+
+.big-font {
+  font-size: 1.2rem;
+ }
+
+.section-take-further-action h2,
+.section-take-further-action h3{
+  font-size: 1.4rem;
+}
+
+.caption-vlow {
+ bottom: 10%;
+}
+.section-foodwastesources .caption-middle{
+    top: -30%;
+}
+
+.text-block {
+  bottom: -20px;
+}
+}
+}
 }
