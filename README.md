@@ -291,7 +291,6 @@ Used the Bootstrap library to make the site responsive. Also took advantages of 
 ## Content
 
 •	Social Media Icons are from Font Awesome.
-
 •	Bootstrap Navbar Documentation helped me to create the navigation menu.
 
 
@@ -301,7 +300,7 @@ Used the Bootstrap library to make the site responsive. Also took advantages of 
 
 
 ## Acknowledgements
-•	I would like to thank my mentor Narender Singh, who was of great help in this project and was always really willing to help me and giving me useful feedback to get the most out of my project.
+•	My mentor Narender Singh, was of great help in this project and introduced me to good changes and techniques to implement on it.
 •	I checked projects from other students to get an idea of the scope of the project and as inspiration for my project.
 
 ## Disclaimer
