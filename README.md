@@ -229,7 +229,7 @@ Can be done through the form. TC012.
 ### Test Results
 ![Test Results](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/TestResults.PNG)
 
-Complete Test Info can be found here (https://santiagoyanezferreiro.github.io/ZeroFoodWaste/TestResultMS2.xlsx)
+Complete Test Info can be found here (https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/TestResultsMS2.xlsx)
 
 It is an .xlsx file and will a compatible program like excel or google docs to open the file.
 
