@@ -623,11 +623,11 @@ img {
 }
 
 .section-contactform h2{
-  font-size:160%;
+  font-size:200%;
 }
 
 .form-cta{
-  margin-top:100px;
+  margin-top:130px;
   color:#fff;
 }
 
@@ -638,18 +638,18 @@ img {
 
 .section-contactform input,
 textarea {
-  width: 600px;
-  height: 50px;
+  width: 700px;
+  height: 80px;
 }
 
 textarea {
-  width: 600px;
-  height: 80px;
+  width: 700px;
+  height: 100px;
   margin-bottom:-40px;
 }
 input[type=checkbox]{
   width:30px;
-  height:20px;
+  height:25px;
   text-align:left;
   display:inline-block;
   margin-top:0px;
