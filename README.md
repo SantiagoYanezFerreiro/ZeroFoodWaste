@@ -6,49 +6,47 @@
 
 ![GitHub Repository Link](https://github.com/SantiagoYanezFerreiro/ZeroFoodWaste)
 
-![Zero Food Waste Responsive Design](assets/images/responsivedesign.PNG)
- 
+![Zero Food Waste Responsive Design](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/responsivedesign.PNG)
+
 Zero Food Waste is a non-profit association whose mission is to contribute to reducing Global Food Waste. 
 
 For this purpose 1)it allows companies like restaurants and supermarkets that want to donate food to get in touch through it with charities and other organisations that could use this food. 
 2) Offers information and a newsletter to raise awareness about this problem and inform users about related events.
 
 The website provides general statistics and information about Worldwide Food Waste and their future predictions and a quiz to keep users engaged while learning. Also uses the Google Maps API to display the countries that waste the most food globally. 
-The who are we? Page contains info about the company; its history, mission & values and their current & future actions to fight this problem.
+About Us Page contains info about the company; its history, mission & values and their current & future actions to fight this problem.
 
 ## User Experience
 
 ### Visitors Goals
-Understand the main purpose of the site and get to know the company.
+• Understand the main purpose of the site and get to know the company.
 
-Easily navigate the site 
+• Easily navigate the site on all type of devices
 
-Check Social Media Sites to know if the organisation is reliable.
+• Check Social Media Sites to know if the organisation is reliable.
 
-Get Quizzed about this topic and learn new info in an enjoyable way (Quiz, Page). 
+• Get Quizzed about their Food Waste Knowledge and learn new info in an enjoyable way (Quiz, Page). 
 
-Be able to contact the company to donate (businesses) or receive donated food (charities). 
+• Be able to contact the company to donate (businesses), receive donated food (charities), collaborations and general queries. 
 
-Get Information about the organisation; it history, accomplishments and future plans. 
+• Get Information about the organisation; it history, accomplishments and future plans. 
 
-Be able to reach out Zero Food Waste through a form for collaborations and general queries.
-
-Have the option to sign up for the newsletter to receive invitations to special events and tips about how to reduce Food Waste. 
+• Have the option to sign up for the newsletter to receive invitations to special events and tips about how to reduce Food Waste. 
 
 
 ### Organisation Goals:
-•	Increase Brand Awareness and Brand Image.
+• Increase Brand Awareness and Brand Image.
 
-•	Get as many entities and people as possible to contact the company for exchanges of food, possible collaborations, and events. 
+• Get as many entities and people as possible to contact the company for exchanges of food, possible collaborations, and events. 
 
-•	Grant access to visitors to relevant Food Waste statistics that will raise their awareness about the topic and contribute to reduce their ecological print.
+• Grant access to visitors to relevant Food Waste statistics that will raise their awareness about the topic and contribute to reduce their ecological print.
 
 
 ## Design
 
 ### Colour Scheme
 
-The two main colours used are White and Green.
+The two main colours used are White and Green. Black is also a common complementary color, which was mainly chosen for buttons. 
 
 ### Typography
 
@@ -72,7 +70,7 @@ I used a lot of Food Waste/Food Images, mainly to make the website look better a
 
 
 
-### What's at stake
+### What's at Stake
 
 ![Join Page](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/wireframewhat'satstake.PNG)
 
@@ -121,7 +119,7 @@ I used a lot of Food Waste/Food Images, mainly to make the website look better a
 
 ### Modifications from the Original Wireframes
 
-• I thought it was better to speak about general information about the company like its mission, history and so on in a separate section called about us.
+• I thought it was better to include the general information about the company like its mission, history and so on in a separate section called about us.
 This way it won't deviate the attention of visitors from the main purposes of the page and the website will be better structured.
 
 
@@ -142,17 +140,15 @@ I think it looks way better and visitors only see the most relevant part of the 
 
 •	**Footer** – Social Media Links and logo to go back to the home page.
 
-•	**Informational Blocks** – Relevant Food Waste Statistics.
+•	**Informational Blocks** – Relevant Food Waste Statistics  and company info contained in parallax formated sections with a background image.
 
-•	**Entity Info** – The section about us features diverse info about the organisation.
+•	**Abous Us Info** – The section about us features diverse info about the organisation.
 
 •	**Contact Form** - Allows visitors to collaborate and/or subscribe to the newsletter.
 
-•	**Sections Menu** - At the bottom of several pages there is a menu of possible actions to take. The aim of it is to spend more time on the site and ultimately get more donations/newsletter subscriptions.
-
 •	**Quiz** - Tests visitor knowledge and gives them a score based on their number of correct answers.
 
-•	**Google Maps Section** - Shows the biggest worldwide contributors to the Food Waste problem.
+•	**Google Maps Section** - Shows the biggest worldwide contributors to the Food Waste problem and general info about them.
 
 
 ## Features to Implement in the future
@@ -173,13 +169,13 @@ I think it looks way better and visitors only see the most relevant part of the 
 
 • CSS3 
 
-• JavaScript 
+• JavaScript, JQuery
 
 ### Frameworks, Libraries & Programs Used
 
-•	GitPod – Used as the Development IDE.
+•	GitPod: Used as the Development IDE.
 
-•	Bootstrap4 layout to make the form responsive, used a CDN to include it in the project.
+•	Bootstrap4: layout to make the form responsive, used a CDN to include it in the project.
 
 •	FontAwesome: Great Icons Resource.
 
@@ -195,10 +191,12 @@ I think it looks way better and visitors only see the most relevant part of the 
 
 •	EmailJS: To make the form work and receive visitors requests.
 
+•   Google Maps API: Used to display the map of the biggest Food Wasting Countries.
+
 
 ## Testing
-The code was validated with the W3C Markup Validator and W3C CSS Validator Services to look for syntax errors.
-The website passed both tests succesfully with no errors at all.
+The code was validated with the W3C Markup, W3C CSS and JSHint Validator Services to look for syntax errors.
+The website passed all tests succesfully with no errors. An excel file with info about the tests performed was included in the repository.
 
 ### High Level Test Classes
 ![High Level Test Classes](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/HighLevelTestCases.PNG)
@@ -206,48 +204,63 @@ The website passed both tests succesfully with no errors at all.
 ### User Story Testing 
 #### Visitors Goals
 
-• Be able to contact the company to donate (businesses) or receive donated food (charities). 
-It can be done through the form by selecting the preferred option. Visitors can also send a message with it.
+Understand the main purpose of the site and get to know the company. 
+The site contains sufficient info on the About Section.
 
-• Get exposed to relevant information that raise awareness of the Food Waste problem and motivate people to waste less food. 
-The city is full of related information, users can get quizzed about it and also get additional info through the newsletter.
+Easily navigate the site. 
+The site was tested covering the main type of devices and browsers. Also tried to made it as simple as intuitive to navigate as possible. TC001, TC002, TC003 and TC004.
 
-• Get Quizzed about this topic and learn new info in an enjoyable way (Quiz, Page). 
-The quiz section allows user to do it getting feedback through their score.
+Check Social Media Sites to know if the organisation is reliable. 
+Added Social Media buttons on the footer. TC005 Test.
 
-•  Get Information about the organisation; its history, accomplishments and future plans. 
-All of it displayed in the About Us section.
+Get Quizzed about this topic and learn new info in an enjoyable way (Quiz, Page). 
+TC007, TC008 and TC009.
 
-•  Be able to reach out Zero Food Waste through a form for collaborations and general queries. 
-Can be done through the main form.
+Be able to contact the company to donate (businesses), receive donated food (charities), collaborations and general queries. 
+Can be done through the form, TC012.
 
-•  Have the option to sign up for the newsletter to receive invitations to special events and tips about how to reduce Food Waste.
-Same as previous user story.
+Get Information about the organisation; it history, accomplishments and future plans. 
+Info Present on the About Page.
+
+Have the option to sign up for the newsletter to receive invitations to special events and tips about how to reduce Food Waste. 
+Can be done through the form. TC012.
 
 
 ### Test Results
 ![Test Results](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/TestResults.PNG)
 
+Complete Test Info can be found here (https://santiagoyanezferreiro.github.io/ZeroFoodWaste/Test Results MS2.xlsx)
+
+It is an .xlsx file and will a compatible program like excel or google docs to open the file.
+
 ## Issues & Problems found during Testing
 
 #### Further Testing
 
-The Website was tested on Google Chrome, Explorer, Opera and Microsoft Edge.
+The Site was tested on Google Chrome, Explorer, Opera and Microsoft Edge.
 
-The website was also viewed on desktop, tablets and several phone devices (Huawei, Iphone, Xiaomi).
+The website was also checked on desktop, tablets and several phone devices (Iphone, Xiaomi, Xperia).
 
-All links were double checked to ensure they work properly.
+All links were double checked to ensure they work as desired.
 
-Friends and family members were also asked to check the site to give feedback and detect errors on it.
+Friends were also asked to check the website and give feedback about the site and any errors when found.
 
 
 #### Known Bugs  & Problems 
-•	It took me a while to format properly the containers. These two pages also didn't look too good until I implemented a parallax effect.
+• It took me a while to format properly the containers. These two pages also didn't look too good until I implemented a parallax effect.
+
+• The partners images in the about section didn't look too good initially since I just placed the images with the src. Improved a lof by setting them as a background image.
+
+• EmailJS was not working in the beginning and took me a while to configure it and discover since there were minor mistakes in the code and wasn't used to the API.
+
+• I also needed time and a lot of internet searches to make the Maps API work displaying the information correctly for each country.
+
 
 
 ## Deployment
 
 ### GitHub Pages
+
 The project was developed using GitPod, committed to git and pushed to GitHub. It was then deployed with Github pages from its GitHub repository following these steps:
 
 •	Log in into GitHub.
@@ -273,9 +286,10 @@ it will get cloned.
 
 ## Code
 
-Used the Bootstrap library to make the site responsive. Also took advantages of its built-in classes, for exampple to make the nav menu responsive.
+Used the Bootstrap library to make the site responsive. Also took advantages of its built-in classes, for examppe to make the nav menu responsive.
 
 ## Content
+
 •	Social Media Icons are from Font Awesome.
 
 •	Bootstrap Navbar Documentation helped me to create the navigation menu.
