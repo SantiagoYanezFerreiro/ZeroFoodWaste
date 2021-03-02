@@ -165,14 +165,13 @@ I think it looks way better and visitors only see the most relevant part of the 
 
 ### Languages Used
 
-• HTML5
+• **HTML5**
 
-• CSS3 
+• **CSS3**
 
-• JavaScript, JQuery
+• **JavaScript**, **JQuery**
 
 ### Frameworks, Libraries & Programs Used
-**Header Logo**
 
 • **GitPod**: Used as the Development IDE.
 
