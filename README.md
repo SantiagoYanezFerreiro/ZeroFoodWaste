@@ -1,4 +1,4 @@
-# Code Institute: Milestone Project 2
+# Zero Food Waste
 
 ![Site Logo](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/logo.png)
 
