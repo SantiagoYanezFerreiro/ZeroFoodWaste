@@ -172,26 +172,27 @@ I think it looks way better and visitors only see the most relevant part of the 
 • JavaScript, JQuery
 
 ### Frameworks, Libraries & Programs Used
+**Header Logo**
 
-• GitPod: Used as the Development IDE.
+• **GitPod**: Used as the Development IDE.
 
-• Bootstrap4: layout to make the form responsive, used a CDN to include it in the project.
+• **Bootstrap4**: layout to make the form responsive, used a CDN to include it in the project.
 
-• FontAwesome: Great Icons Resource.
+• **FontAwesome**: Great Icons Resource.
 
-• Auto-Prefixer: Extension that adds all necessary extensions to the webite so that it works properly on all major browsers.
+• **Auto-Prefixer**: Extension that adds all necessary extensions to the webite so that it works properly on all major browsers.
 
-• Unsplash: Website that offers high quality free images.
+• **Unsplash**: Website that offers high quality free images.
 
-• Realfavicongenerator: Used to create the Favicon.
+• **Realfavicongenerator**: Used to create the Favicon.
 
-• FreeLogoDesign: Tool used to design the logo.
+• **FreeLogoDesign**: Tool used to design the logo.
 
-• Pencil: Great Wireframing Software.
+• **Pencil**: Great Wireframing Software.
 
-• EmailJS: To make the form work and receive visitors requests.
+• **EmailJS**: To make the form work and receive visitors requests.
 
-• Google Maps API: Used to display the map of the biggest Food Wasting Countries.
+• **Google Maps API**: Used to display the map of the biggest Food Wasting Countries.
 
 
 ## Testing
@@ -254,7 +255,6 @@ It is an .xlsx file and will a compatible program like excel or google docs to o
 • EmailJS was not working in the beginning and took me a while to configure it and discover since there were minor mistakes in the code and wasn't used to the API.
 
 • I also needed time and a lot of internet searches to make the Maps API work displaying the information correctly for each country.
-
 
 
 ## Deployment
