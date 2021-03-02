@@ -173,25 +173,25 @@ I think it looks way better and visitors only see the most relevant part of the 
 
 ### Frameworks, Libraries & Programs Used
 
-•	GitPod: Used as the Development IDE.
+• GitPod: Used as the Development IDE.
 
-•	Bootstrap4: layout to make the form responsive, used a CDN to include it in the project.
+• Bootstrap4: layout to make the form responsive, used a CDN to include it in the project.
 
-•	FontAwesome: Great Icons Resource.
+• FontAwesome: Great Icons Resource.
 
-•	Auto-Prefixer: Extension that adds all necessary extensions to the webite so that it works properly on all major browsers.
+• Auto-Prefixer: Extension that adds all necessary extensions to the webite so that it works properly on all major browsers.
 
-•	Unsplash: Website that offers high quality free images.
+• Unsplash: Website that offers high quality free images.
 
-•	Realfavicongenerator: Used to create the Favicon.
+• Realfavicongenerator: Used to create the Favicon.
 
-•	FreeLogoDesign: Tool used to design the logo.
+• FreeLogoDesign: Tool used to design the logo.
 
-•	Pencil: Great Wireframing Software.
+• Pencil: Great Wireframing Software.
 
-•	EmailJS: To make the form work and receive visitors requests.
+• EmailJS: To make the form work and receive visitors requests.
 
-•   Google Maps API: Used to display the map of the biggest Food Wasting Countries.
+• Google Maps API: Used to display the map of the biggest Food Wasting Countries.
 
 
 ## Testing
@@ -204,25 +204,25 @@ The website passed all tests succesfully with no errors. An excel file with info
 ### User Story Testing 
 #### Visitors Goals
 
-Understand the main purpose of the site and get to know the company. 
+• Understand the main purpose of the site and get to know the company. 
 The site contains sufficient info on the About Section.
 
-Easily navigate the site. 
+• Easily navigate the site. 
 The site was tested covering the main type of devices and browsers. Also tried to made it as simple as intuitive to navigate as possible. TC001, TC002, TC003 and TC004.
 
-Check Social Media Sites to know if the organisation is reliable. 
+• Check Social Media Sites to know if the organisation is reliable. 
 Added Social Media buttons on the footer. TC005 Test.
 
-Get Quizzed about this topic and learn new info in an enjoyable way (Quiz, Page). 
+• Get Quizzed about this topic and learn new info in an enjoyable way (Quiz, Page). 
 TC007, TC008 and TC009.
 
-Be able to contact the company to donate (businesses), receive donated food (charities), collaborations and general queries. 
+• Be able to contact the company to donate (businesses), receive donated food (charities), collaborations and general queries. 
 Can be done through the form, TC012.
 
-Get Information about the organisation; it history, accomplishments and future plans. 
+• Get Information about the organisation; it history, accomplishments and future plans. 
 Info Present on the About Page.
 
-Have the option to sign up for the newsletter to receive invitations to special events and tips about how to reduce Food Waste. 
+• Have the option to sign up for the newsletter to receive invitations to special events and tips about how to reduce Food Waste. 
 Can be done through the form. TC012.
 
 
@@ -237,13 +237,13 @@ It is an .xlsx file and will a compatible program like excel or google docs to o
 
 #### Further Testing
 
-The Site was tested on Google Chrome, Explorer, Opera and Microsoft Edge.
+• The Site was tested on Google Chrome, Explorer, Opera and Microsoft Edge.
 
-The website was also checked on desktop, tablets and several phone devices (Iphone, Xiaomi, Xperia).
+• The website was also checked on desktop, tablets and several phone devices (Iphone, Xiaomi, Xperia).
 
-All links were double checked to ensure they work as desired.
+• All links were double checked to ensure they work as desired.
 
-Friends were also asked to check the website and give feedback about the site and any errors when found.
+• Friends were also asked to check the website and give feedback about the site and any errors when found.
 
 
 #### Known Bugs  & Problems 
