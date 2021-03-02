@@ -16,17 +16,14 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700;1,900&display=swap"
         rel="stylesheet">
     <title>Zero Food Waste</title>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () { emailjs.init("user_59rL8k6Ivj5HRFMFHHbkg"); })();
-    </script>
 </head>
 
 <body>
     <header>
-        <!-- Used Bootstrap Navbars Documentation-->
-        <nav class="navbar navbar-light navbar-expand-md navmenu">
-            <a href="index.html"><img src="assets/images/logo.PNG" alt="Company Logo" class="logo"> </a>
+        <nav class="navbar navbar-light navbar-expand-md navmenu filleffect">
+            <a href="index.html">
+                <img src="assets/images/logo.PNG" alt="Company Logo" class="logo">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Collapsiblenav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,43 +38,44 @@
         </nav>
     </header>
 
+    <h1 class="darkgreen quizheading">How much do you really know about Food Waste?</h1>
 
-    <section class="container-fluid section-contactform bg-form">
-        <div class="row justify-content-center text-center">
-            <div class="col-12">
-                <div class="form-cta">
-                    <h2>Reach us out now to donate food for a good cause and contribute to a better world.</h2>
-                    <h2>Also subscribe to our newsletter to get event invitations and the best food waste reducing tips!
-                    </h2>
-                </div>
+    <div id="container">
+        <div id="startbtn">Start Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div id="questiontext"></div>
+            <div id="questionImage"></div>
+            <div id="options">
+                <div class="option" id="A" onclick="AddScoreBgIfAnswerCorrect('A')"></div>
+                <div class="option" id="B" onclick="AddScoreBgIfAnswerCorrect('B')"></div>
+                <div class="option" id="C" onclick="AddScoreBgIfAnswerCorrect('C')"></div>
             </div>
-
-            <form onsubmit="return SubmitForm(this);" class="contactform small">
-                <div class="col-12">
-                    <input type="text" name="name" id="name" placeholder="First Name" required>
-                </div>
-                <div class="col-12">
-                    <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
-                </div>
-                <div class="col-12">
-                    <input type="email" name="email" id="email " placeholder="Email" required>
-                </div>
-                <div class="col-12">
-                    <textarea name="request" id="request" placeholder="Leave us a Message"></textarea>
-                </div>
-                <div class="col-12">
-                    <label>&nbsp;</label>
-                </div>
-                <div class="col-12">
-                    <label>
-                        <input type="checkbox" checked="checked" name="subscribe"> Newsletter
-                    </label>
-                </div>
-                <div class="col-12 ">
-                    <button class="standard-btn" type="submit" name="submit" value="submit">Submit</button>
-                </div>
-            </form>
+            <div id="stopWatch">
+                <div id="counter"></div>
+                <div id="btimeLeft"></div>
+                <div id="timeLeft"></div>
+            </div>
+            <div id="progressCircles"></div>
         </div>
+        <div id="scoreContainer" style="display: none"></div>
+        <button type="button" ID="resetButton" class="standard-btn" onclick="reloadP();" value="Try Again?"
+            style="display: none;" />
+        Wanna Try Again?
+        </button>
+        <button type="button" ID="infoButton" class="standard-btn"
+            onclick="window.open('https://www.theworldcounts.com/challenges/consumption/foods-and-beverages/food-waste-facts/story','_blank')"
+            value="Try Again?" style="display: none;" />
+        More Interesting Info
+        </button>
+    </div>
+    <!-- 
+    https://comparecamp.com/food-waste-statistics/
+    https://stopwastingfoodmovement.org/food-waste/food-waste-facts/
+    https://www.conserve-energy-future.com/causes-effects-solutions-food-waste.php
+-->
+    <h2 class="map-heading darkgreen">Click on the map to know more about the Top Food Wasting Countries! </h2>
+    <section class="map">
+        <div id="map">
         </div>
     </section>
 
@@ -113,7 +111,14 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript "
         src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js "></script>
-    <script src="assets/js/sendMail.js"></script>
+
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaAwkKXjaTFv_QljhD8do92OIliiVtOF8&callback=initMap"></script>
+    <script src="assets/js/maps.js">
+    </script>
+    <script src="assets/js/newquiz.js"></script>
 </body>
 
 </html>

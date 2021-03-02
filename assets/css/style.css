@@ -541,20 +541,19 @@ nav.filleffect ul li a {
   letter-spacing: -.03125rem;
 }
 
+.section-future-plans{
+  margin-bottom:150px;
+}
+
 .greenbg {
   background-color: #115c07;
 }
 
 .section-partners .content-box {
-  margin-top: 0px;
-  margin-left: 30%;
-  margin-right:30%;
-  margin-bottom:20px;
-
+  margin:20px 35% 50px 35%;
 }
 
-.content-box
-{
+.content-box{
   background-color: #fff;
   border-radius: 25px;
   padding: 5px 5px;
@@ -565,7 +564,7 @@ nav.filleffect ul li a {
 .content-box {
   border: 4px solid #115c07;
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 img {
@@ -585,10 +584,9 @@ img {
     width: 100px;
     height: 130px;
     border-radius: 20px;
-    margin-right:5px;
+    margin-right:15px;
     background-position: center center;
     margin-bottom:20px;
-   
 }
 
 .partner1-img {
@@ -636,6 +634,10 @@ img {
   margin-top: 20px;
 }
 
+.section-contactform input{
+  margin-bottom:0px;
+}
+
 .section-contactform input,
 textarea {
   width: 700px;
@@ -645,14 +647,16 @@ textarea {
 textarea {
   width: 700px;
   height: 100px;
-  margin-bottom:-40px;
+  margin-bottom:-20px;
 }
+
 input[type=checkbox]{
   width:30px;
   height:25px;
   text-align:left;
   display:inline-block;
   margin-top:0px;
+  margin-bottom:20px;
 }
 
 label{
@@ -860,9 +864,8 @@ div#map {
 /*Big Tables to 1170px (container-fluid Bootstrap Class max-width */
 
 @media only screen and (max-width:1170px) {
-  
-}
 
+}
 
 /*Small tablets to big tablets - from 768px to 1023px  */
 
@@ -880,7 +883,8 @@ div#map {
 .section-future-plans h2,
 .section-our-numbers h2,
 .map-heading,
-.quizheading-{
+.quizheading,
+.section-partners h2{
     font-size: 2.5rem;
 }
 
@@ -897,22 +901,24 @@ p{
 /*Small phones to small tablets - from 481 to 767 px  */
 
 @media only screen and (max-width: 767px) {
-   .main-nav{
-     margin-bottom:20px;
-   }
-   .nav-item{
-     margin-bottom:10px;
-   }
-  
-  .form-cta{
-   font-size: 80%;
-  }
+.main-nav{
+  margin-bottom:20px;
+}
+
+.nav-item{
+  margin-bottom:10px;
+}
+
+.form-cta{
+font-size: 80%;
+}
 
 .section-contactform input,
   textarea {
   width: 420px;
-  height: 50px;
+  height: 60px;
 }   
+
 input[type=checkbox]{
   width:20px;
   height:20px;
@@ -931,8 +937,16 @@ label{
 }
 
 .form-cta{
-  margin-top:30px;
+  margin-top:100px;
   margin-bottom:10px;
+}
+
+textarea {
+  margin-bottom:-20px;
+}
+
+input[type=checkbox]{
+  margin-bottom:20px;
 }
 
 .section-aboutus h1,
@@ -944,12 +958,27 @@ label{
 .section-general-info-company h1,
 .section-general-info-company h2,
 .section-how-to-take-action h2,
-.section-general-info h2{
+.section-general-info h2,
+.section-partners h2{
     font-size:2.0rem;
 }
 
 .section-partners h2{
-  font-size: 1.6rem;
+ font-size: 1.8rem;
+}
+
+.partner1-img,
+.partner2-img,
+.partner3-img,
+.partner4-img,
+.partner5-img{
+    max-width: 330px;
+    height: 150px;
+    margin-bottom:20px;
+}
+
+.section-partners .content-box {
+    margin: 20px 25% 50px 25%;
 }
 
 .section-aboutus, .section-whatwereabout, .section-our-numbers, .section-future-plans{
@@ -995,7 +1024,6 @@ p{
 }
 .big-font {
   font-size: 1.4rem;
- 
 }
 
 .section-foodwastesources h2{
@@ -1055,11 +1083,16 @@ p{
 
 .section-contactform input,
   textarea {
-  width: 300px;
-  height: 50px;
+  width: 350px;
+  height: 60px;
 }   
 
+textarea {
+  margin-bottom:-40px;
+}
+
 input[type=checkbox]{
+  margin-top:-30px;
   width:15px;
   height:15px;
 }
@@ -1090,17 +1123,33 @@ label{
 .section-general-info-company h1,
 .section-general-info-company h2,
 .section-how-to-take-action h2,
-.section-general-info h2
-{
+.section-general-info h2{
     font-size:1.6rem;
 }
 
-.section-partners h2{
-  font-size:1.3rem;
+.partner1-img,
+.partner2-img,
+.partner3-img,
+.partner4-img,
+.partner5-img{
+    max-width: 270px;
+    height: 150px;
+    margin-bottom:40px;
 }
 
 .content-box{
-  padding:5px;
+  border-radius: 25px;
+  padding: 10px 10px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.content-box {
+  font-size: 10px;
+  margin-right:0%;
+  margin-left:0%;
 }
 
 p{
@@ -1109,7 +1158,7 @@ p{
 
 .big-font {
   font-size: 1.2rem;
- }
+}
 
 .section-take-further-action h2,
 .section-take-further-action h3{
