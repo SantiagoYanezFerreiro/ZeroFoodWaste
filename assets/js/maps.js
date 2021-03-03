@@ -1,7 +1,6 @@
 window.onload = function () {
         initMap();
-}
-    
+}    
     //Array containing latitude, longitude and info about the countries
 var markers = [
     {
