@@ -882,10 +882,13 @@ div#map {
 .section-whatwereabout h2,
 .section-future-plans h2,
 .section-our-numbers h2,
-.map-heading,
 .quizheading,
 .section-partners h2{
     font-size: 2.5rem;
+}
+
+.map-heading{
+  font-size:2rem;
 }
 
 p{
@@ -1039,41 +1042,71 @@ p{
 }
 
 #container{
-  width:600px;
+  width:450px;
 }
 
 #scoreContainer{
-  width:600px;
+  width:450px;
 }
 #startbtn {
-  left: 250px;
+  left: 160px;
+}
+
+#questionImage {
+  width: 200px;
+  height: 200px;
+}
+
+#questionImage img {
+  width: 150px;
+  height: 150px;
+}
+
+#questiontext {
+  height: 100px;
+  width: 300px;
+}
+
+#questiontext p {
+  font-size: 1.1em;
+  margin-left: 5px;
+  padding: 0px;
+  
+}
+
+#options {
+  left: 150px;
+  top: 110px;
+  width: 100px;  
+}
+
+.option {
+  width: 250px;
 }
 
 #scoreContainer img {
-  position: absolute;
-  top: 20px;
-  left: 270px;
-  height: 150px;
-  width: auto;
+  top: 10px;
+  left: 200px;
+  height: 90px;
 }
+
 #scoreContainer p {
-  font-size: 3em;
+  font-size: 2.5em;
   width: 59px;
   height: 59px;
-  top: 130px;
-  left: 300px;
+  top:70px;
+  left: 200px;
 }
 
 #resetButton{
-  bottom:110px;
-  left:40px;
+  bottom:180px;
+  left:120px;
 }
 
 #infoButton{
-  bottom:180px;
-  left:420px;
+  bottom: 170px;
+  left:105px;
 }
-
 
 /*Small phones - from 0 to 480 px  */
 @media only screen and (max-width:480px) {
@@ -1174,6 +1207,67 @@ p{
 
 .text-block {
   bottom: -20px;
+}
+
+#container{
+  width:400px;
+}
+
+#scoreContainer{
+  width:400px;
+}
+
+#startbtn {
+  left: 120px;
+}
+
+#questionImage img {
+  width: 130px;
+  height: 130px;
+}
+
+#questiontext {
+  margin-top:10px;
+  height: 100px;
+  width: 300px;
+}
+
+#questiontext p {
+  font-size: 0.8rem;
+  margin-left: 50px;
+  max-width:35ch;
+}
+
+#options {
+  left: 130px;
+  top: 100px;
+  width: 100px;  
+}
+
+.option {
+  width: 250px;
+}
+
+#scoreContainer img {
+  top: 10px;
+  left: 160px;
+  height: 90px;
+}
+
+#scoreContainer p {
+  font-size: 2.5em;
+  width: 59px;
+  height: 59px;
+  top:70px;
+  left: 170px;
+}
+
+#resetButton{
+  left:100px;
+}
+
+#infoButton{
+  left:85px;
 }
 }
 }
