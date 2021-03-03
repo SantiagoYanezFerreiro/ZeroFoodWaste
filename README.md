@@ -181,7 +181,7 @@ I think it looks way better and visitors only see the most relevant part of the 
 
 • **Unsplash**: Website that offers high quality free images.
 
-• **Realfavicongenerator**: Used to create the Favicon.
+• **Favicongenerator**: Used to create the Favicon.
 
 • **FreeLogoDesign**: Tool used to design the logo.
 
@@ -293,7 +293,7 @@ Used the Bootstrap library to make the site responsive. Also took advantages of 
 
 ## Media
 •	Pictures are from Unsplash.com, Pexels and Google Images.
-•	The favicon was created using the resource ![Favicon](https://realfavicongenerator.net/)
+•	The favicon was created using the resource ![Favicon](https://www.favicon-generator.org/)
 
 
 ## Acknowledgements
