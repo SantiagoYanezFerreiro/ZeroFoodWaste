@@ -1,4 +1,5 @@
 // const declaration to select elements.
+
 const startbtn = document.getElementById("startbtn");
 const quiz = document.getElementById("quiz");
 const questiontext = document.getElementById("questiontext");
@@ -15,10 +16,8 @@ const infoButton = document.getElementById("infoButton");
 const quizDiv = document.getElementById("quiz");
 const containerDiv = document.getElementById("container");
 
-
-
-
 // Questions array
+
 let questions = [
   {
     questiontext: "How much food waste produced globally goes to waste?",
@@ -61,12 +60,10 @@ let questions = [
     imgSrc: "assets/images/quiz-5.jpg",
     optionA: "Reduce Food Waste to 0",
     optionB: "Increase food production by 300%",
-    optionC: "Increase food production 100% and reduce food wasted by 20%.",
+    optionC: "Increase food production 100%.",
     correct: "C",
   },
 ];
-
-
 
 const lastQuestion = questions.length - 1;
 let actualQuestion = 0;
@@ -76,8 +73,6 @@ const gaugeWidth = 150;
 const gaugeUnit = gaugeWidth / maxTime;
 let stopWatch;
 let score = 0;
-
-
 
 //Start Quiz
 startbtn.addEventListener("click", initializeQuiz);
@@ -96,7 +91,6 @@ function renderQuestion() {
   optionC.innerHTML = q.optionC;
 }
 
-
 function initializeQuiz() {
   startbtn.style.display = "none";
   renderQuestion();
@@ -114,7 +108,6 @@ function renderProgress() {
 }
 
 //Show quiz progress
-
 function renderCounter() {
   if (count <= maxTime) {
     counter.innerHTML = count;
@@ -132,8 +125,6 @@ function renderCounter() {
     }
   }
 }
-
-//UP TO HERE
 
 function AddScoreBgIfAnswerCorrect(answer) {
   if (answer == questions[actualQuestion].correct) {
@@ -153,30 +144,22 @@ function AddScoreBgIfAnswerCorrect(answer) {
   }
 }
 
-
-// score render
 function scoreRender() {
   scoreContainer.style.display = "block";
   quizDiv.style.display = "none";
   resetButton.style.display = "block";
   infoButton.style.display = "block";
 
-
 // Calculate Score and display it with related image depending on how well the user did.
   const finalScore = Math.round((100 * score) / questions.length);
 
-  // Choose the image based on the finalScore
+// Choose the image based on the finalScore
   let img =
-    finalScore >= 80
-      ? "assets/images/emo-80.png"
-      : finalScore >= 60
-      ? "assets/images/emo-60.png"
-      : finalScore >= 40
-      ? "assets/images/emo-40.png"
-      : finalScore >= 20
-      ? "assets/images/emo-20.png"
-      : "assets/images/emo-20.png";
-
+    finalScore >= 80 ? "assets/images/emo-80.png" :
+    finalScore >= 60 ? "assets/images/emo-60.png" :
+    finalScore >= 40 ? "assets/images/emo-40.png" :
+    finalScore >= 20 ? "assets/images/emo-20.png" :
+    "assets/images/emo-20.png";
   scoreContainer.innerHTML = "<img src=" + img + ">";
   scoreContainer.innerHTML += "<p>" + finalScore + "%</p>";
 }

@@ -2,7 +2,8 @@ window.onload = function () {
         initMap();
 }
     
-    //Array containing latitude, longitude and info about the countries
+//Array containing latitude, longitude and info about the countries
+
 var markers = [
     {
         "place": 'Italy',
@@ -70,6 +71,7 @@ var markers = [
 ];
     
   //Initial position, zoom and type of the map
+
     function initMap() {
         var StartingMap = {
             center: new google.maps.LatLng(markers[0].latitude, markers[0].longitude),
@@ -77,10 +79,8 @@ var markers = [
             mapTypeId: google.maps.MapTypeId.SATELLITE 
         };
         var map = new google.maps.Map(document.getElementById("map"), StartingMap);
- 
         
         var CountryInfo = new google.maps.InfoWindow();
- 
         
         for (var i = 0; i < markers.length; i++) {
             var data = markers[i];
@@ -90,8 +90,7 @@ var markers = [
                 map: map,
                 place: data.place
             });
- 
-            
+             
             // on click function to display countries' info
             (function (marker, data) {
                 google.maps.event.addListener(marker, "click", function (e) {

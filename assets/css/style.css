@@ -6,8 +6,7 @@
   box-sizing: border-box;
 }
 
-/* Get rid of Bootstrap Overflow*/
-
+/* Got rid of Bootstrap Overflow*/
 container,
 container-fluid,
 row {
@@ -31,7 +30,6 @@ body {
   font-weight: 300;
   font-size: 17px;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
 }
 
 h1,
@@ -69,18 +67,6 @@ h3 {
 h4 {
   font-size: 130%;
 }
-
-/*
-.darkgreen:after {
-    height: 5px;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 150px;
-    background-color: #000;
-    content: ' ';
-    display: block;
-}
-*/
 
 .darkgreen{
   color:#115c07;
@@ -129,10 +115,7 @@ section {
   min-height: 40vh;
 }
 
-
-
 /*NAV MENU*/
-
 .main-nav {
   list-style: none;
   margin-top: 0px;
@@ -151,6 +134,7 @@ nav.filleffect ul li a:hover {
   z-index: 1;
   background-color: black;
 }
+
 nav.filleffect ul li a:hover:after {
   z-index: -10;
   animation: fill 1s forwards;
@@ -166,6 +150,7 @@ nav.filleffect ul li a {
   -ms-transition: all 1s;
   -o-transition: all 1s;
 }
+
 .main-nav li a {
   float: right;
   margin-right: 40px;
@@ -200,10 +185,10 @@ nav.filleffect ul li a {
 .small{
   margin:5% 15%;
 }
+
 .section-aboutus, .section-whatwereabout, .section-our-numbers, .section-future-plans{
   margin-bottom:50px;
 }
-
 
 #display-score {
   margin-top: 60px;
@@ -256,7 +241,6 @@ nav.filleffect ul li a {
   margin-bottom: 3px;
 }
 
-
 .addbuttonmargin {
   margin-top: 45px;
 }
@@ -292,22 +276,21 @@ nav.filleffect ul li a {
 .bg-form {
   background-image: url("../images/food1.jpg");
   background-repeat: no-repeat;
-  background-position: fixed;
   background-size: cover;
   width: 100%;
-  min-height: 700px;
+  min-height: 400px;
 }
 
 .bg-quiz {
   background-image: url("../images/wastedfood-4.jpg");
   background-repeat: no-repeat;
-  background-position: fixed;
   background-size: cover;
   width: 100%;
   min-height: 40vh;
 }
 
 /* QUIZ */
+
 .section-quizcontainer, .map-heading{
     margin-bottom: 60px;
 }
@@ -328,6 +311,7 @@ nav.filleffect ul li a {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
+
 #startbtn {
   width: 150px;
   height: 100px;
@@ -355,8 +339,8 @@ nav.filleffect ul li a {
   left: 0px;
   top: 0px;
   position: absolute;
-  
 }
+
 #questionImage img {
   border-top-left-radius: 5px;
   width: 200px;
@@ -371,11 +355,11 @@ nav.filleffect ul li a {
   top: 0;
   right: 0;
 }
+
 #questiontext p {
   font-size: 1.25em;
   margin: 0;
   padding: 15px;
-  
 }
 
 #options {
@@ -384,7 +368,6 @@ nav.filleffect ul li a {
   padding: 10px;
   width: 400px;
   position: absolute;
-  
 }
 
 .option {
@@ -395,8 +378,8 @@ nav.filleffect ul li a {
   display: inline-block;
   width: 300px;
   text-align: center;
-  
 }
+
 .option:hover {
   border: 2px solid #115c07;
   font-weight: bold;
@@ -409,9 +392,11 @@ nav.filleffect ul li a {
   position: absolute;
   text-align: center;
 }
+
 #counter {
   font-size: 3em;
 }
+
 #btimeLeft {
     border-radius: 10px;
     background-color: lightgray;
@@ -423,6 +408,7 @@ nav.filleffect ul li a {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+
 #timeLeft {
   margin-top: -10px;
   margin-left: 25px;
@@ -430,6 +416,7 @@ nav.filleffect ul li a {
   border-radius: 10px;
   background-color: #115c07;
 }
+
 #progressCircles {
   padding: 5px;
   text-align: right;
@@ -438,6 +425,7 @@ nav.filleffect ul li a {
   bottom: 0px;
   right: 0px;
 }
+
 .prog {
   border-radius: 50%;
   margin-left: 5px;
@@ -447,6 +435,7 @@ nav.filleffect ul li a {
   border: 1px solid #000;
   display: inline-block;
 }
+
 #scoreContainer {
   margin: 20px auto;
   background-image: url("../images/quizcontainerbg5.jpg");
@@ -464,6 +453,7 @@ nav.filleffect ul li a {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
+
 #scoreContainer img {
   position: absolute;
   top: 20px;
@@ -471,6 +461,7 @@ nav.filleffect ul li a {
   height: 150px;
   width: auto;
 }
+
 #scoreContainer p {
   font-size: 3em;
   font-weight: bold;
@@ -582,7 +573,7 @@ img {
 .partner4-img,
 .partner5-img{
     width: 100px;
-    height: 130px;
+    height: 180px;
     border-radius: 20px;
     margin-right:15px;
     background-position: center center;
@@ -590,7 +581,7 @@ img {
 }
 
 .partner1-img {
-    background-image: url("../images/partner.png");
+    background-image: url("../images/partner.jpg");
     background-size: cover;
 }
 
@@ -600,7 +591,7 @@ img {
 }
 
 .partner3-img {
-    background-image: url("../images/partner3.jpg");
+    background-image: url("../images/partner3.png");
     background-size: cover;
 }
 
@@ -670,13 +661,13 @@ label{
 }
 
 .partners {
-  martin-top: 0px;
+  margin-top: 0px;
   margin: 0 auto;
   margin-bottom: 0px;
 }
 
 .partners img {
-  margin: 0px 20px;
+  margin: 20px 20px;
   width: 210px;
   border-radius: 10%;
   -webkit-border-radius: 10%;
@@ -701,15 +692,12 @@ footer {
   height:20px;
 }
 
-#overflow{box-shadow:5px -10px 1px 0px rgba(0,0,0,0.16);
-}
-
 .socialmedia,
 .copyright {
    margin: auto 0;
   margin-bottom:10px;
    margin-top:20px;
-  }
+}
 
 .copyright p {
   color: #115c07;
@@ -730,7 +718,6 @@ footer {
   font-size: 130%;
   text-align:center;
 }
-
 
 /*PARALLAX*/
 
@@ -803,6 +790,7 @@ footer {
   font-weight: 900;
   font-weight: bold;
 }
+
 .caption-top {
   left: 0;
   top: 70%;
@@ -840,6 +828,7 @@ div#map {
 .caption-question h2 {
   margin-bottom: 20px;
 }
+
 .caption span.border {
   background-color: #111;
   color: #fff;
@@ -848,23 +837,21 @@ div#map {
   letter-spacing: 10px;
 }
 
-
 /* THANK YOU SECTION */
+
 .section-thankyoupage{
   margin-top:40px;
   margin-bottom:40px;
 }
+
 .section-thankyoupage h1, .section-thankyoupage img{
   margin-bottom:60px;
 }
 
 /*MEDIA QUERIES*/
-
-
 /*Big Tables to 1170px (container-fluid Bootstrap Class max-width */
 
 @media only screen and (max-width:1170px) {
-
 }
 
 /*Small tablets to big tablets - from 768px to 1023px  */
@@ -899,7 +886,6 @@ p{
 .content-box{
   padding:3px;
 }
-
 
 /*Small phones to small tablets - from 481 to 767 px  */
 
@@ -984,10 +970,6 @@ input[type=checkbox]{
     margin: 20px 25% 50px 25%;
 }
 
-.section-aboutus, .section-whatwereabout, .section-our-numbers, .section-future-plans{
-  
-}
-
 p{
   max-width: 90ch;
 }
@@ -1018,6 +1000,7 @@ p{
 .bgimg-stake2{
   min-height:1300px;
 }
+
 .caption{
   top:20%;
 }
@@ -1025,6 +1008,7 @@ p{
 .caption-middle{
     top: -50%;
 }
+
 .big-font {
   font-size: 1.4rem;
 }
@@ -1048,6 +1032,7 @@ p{
 #scoreContainer{
   width:450px;
 }
+
 #startbtn {
   left: 160px;
 }
@@ -1071,7 +1056,6 @@ p{
   font-size: 1.1em;
   margin-left: 5px;
   padding: 0px;
-  
 }
 
 #options {
@@ -1109,6 +1093,7 @@ p{
 }
 
 /*Small phones - from 0 to 480 px  */
+
 @media only screen and (max-width:480px) {
 .form-cta{
    font-size: 70%;
