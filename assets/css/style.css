@@ -278,7 +278,7 @@ nav.filleffect ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 400px;
+  min-height:400px;
 }
 
 .bg-quiz {
@@ -572,13 +572,12 @@ img {
 .partner3-img,
 .partner4-img,
 .partner5-img{
-    width: 100px;
-    height: 180px;
+    width: 500px;
+    height: 200px;
     border-radius: 20px;
-    margin-right:15px;
+    margin-right:10px;
     background-position: center center;
-    margin-bottom:20px;
-}
+    margin-bottom:20px;}
 
 .partner1-img {
     background-image: url("../images/partner.jpg");
@@ -614,36 +613,50 @@ img {
 .section-contactform h2{
   font-size:200%;
 }
+.contactform{
+  margin-right:80px;
+}
 
 .form-cta{
-  margin-top:130px;
+  margin-top:230px;
   color:#fff;
 }
 
 .section-contactform form {
   margin-bottom: 60px;
-  margin-top: 20px;
+  margin-top: 150px;
 }
 
 .section-contactform input{
   margin-bottom:0px;
 }
 
+.section-contactform {
+  min-height: 70vh;
+}
+
+.section-contactform footer {
+  min-height: 5vh;
+}
+
+.mainform{
+  margin-right:20px;
+}
+
 .section-contactform input,
 textarea {
-  width: 700px;
+  width: 550px;
   height: 80px;
 }
 
 textarea {
-  width: 700px;
   height: 100px;
   margin-bottom:-20px;
 }
 
 input[type=checkbox]{
   width:30px;
-  height:25px;
+  height:20px;
   text-align:left;
   display:inline-block;
   margin-top:0px;
@@ -652,6 +665,7 @@ input[type=checkbox]{
 
 label{
   color:#fff;
+  font-weight:900;
   font-size:25px;
   font-weight:bolder;
 }
@@ -666,23 +680,6 @@ label{
   margin-bottom: 0px;
 }
 
-.partners img {
-  margin: 20px 20px;
-  width: 210px;
-  border-radius: 10%;
-  -webkit-border-radius: 10%;
-  -moz-border-radius: 10%;
-  -ms-border-radius: 10%;
-  -o-border-radius: 10%;
-}
-
-.section-contactform {
-  min-height: 90vh;
-}
-
-.section-contactform footer {
-  min-height: 5vh;
-}
 
 /*FOOTER*/
 
@@ -752,7 +749,7 @@ footer {
 
 .bgimg-index1 {
   background-image: url("../images/fruits3.jpg");
-  min-height: 700px;
+  min-height: 60px;
 }
 
 .bgimg-index2 {
@@ -851,8 +848,19 @@ div#map {
 /*MEDIA QUERIES*/
 /*Big Tables to 1170px (container-fluid Bootstrap Class max-width */
 
-@media only screen and (max-width:1170px) {
+@media only screen and (max-width:1200px) {
+  .form-cta{
+  margin-top:50px;
+  
 }
+
+.contactform{
+  margin-top:-100px;
+  margin-right:0px;
+}
+
+}
+
 
 /*Small tablets to big tablets - from 768px to 1023px  */
 
@@ -885,6 +893,16 @@ p{
 
 .content-box{
   padding:3px;
+}
+
+.partner1-img,
+.partner2-img,
+.partner3-img,
+.partner4-img,
+.partner5-img{
+    max-width: 250px;
+    height: 180px;
+    margin-bottom:20px;
 }
 
 /*Small phones to small tablets - from 481 to 767 px  */
@@ -956,15 +974,17 @@ input[type=checkbox]{
  font-size: 1.8rem;
 }
 
+
 .partner1-img,
 .partner2-img,
 .partner3-img,
 .partner4-img,
 .partner5-img{
-    max-width: 330px;
-    height: 150px;
+    max-width: 200px;
+    height: 180px;
     margin-bottom:20px;
 }
+
 
 .section-partners .content-box {
     margin: 20px 25% 50px 25%;
@@ -1102,7 +1122,7 @@ p{
 .section-contactform input,
   textarea {
   width: 350px;
-  height: 60px;
+  height: 65px;
 }   
 
 textarea {
@@ -1150,8 +1170,8 @@ label{
 .partner3-img,
 .partner4-img,
 .partner5-img{
-    max-width: 270px;
-    height: 150px;
+    max-width: 200px;
+    height: 200px;
     margin-bottom:40px;
 }
 
@@ -1257,3 +1277,4 @@ p{
 }
 }
 }
+ 

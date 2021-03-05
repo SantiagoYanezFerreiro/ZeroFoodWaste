@@ -61,39 +61,42 @@
 
     <section class="container-fluid section-contactform bg-form">
         <div class="row justify-content-center text-center">
-            <div class="col-12">
+            <div class="col-12 col-xl-6">
                 <div class="form-cta">
                     <h2>Reach us out now to donate food for a good cause and contribute to a better world.</h2>
                     <h2>Also subscribe to our newsletter to get event invitations and the best food waste reducing tips!
                     </h2>
                 </div>
             </div>
-            <form onsubmit="return SubmitForm(this);" class="contactform small">
-                <div class="col-12">
-                    <input type="text" name="name" id="name" placeholder="First Name" required>
+            <div class="col-12 col-xl-6">
+                <div class="contactform">
+                    <form onsubmit="return SubmitForm(this);" class="">
+                        <div class="namefield">
+                            <input type="text" name="name" id="name" placeholder="First Name" required>
+                        </div>
+                        <div class="lastnamefield">
+                            <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+                        </div>
+                        <div class="emailfield">
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="textareafield">
+                            <textarea name="request" id="request" placeholder="Leave us a Message"></textarea>
+                        </div>
+                        <div class="">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="checkboxfield">
+                            <label>
+                                <input type="checkbox" checked="checked" name="subscribe"> Newsletter
+                            </label>
+                        </div>
+                        <div class="submitbtn">
+                            <button class="standard-btn" type="submit" name="submit" value="submit">Submit</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-12">
-                    <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
-                </div>
-                <div class="col-12">
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-                </div>
-                <div class="col-12">
-                    <textarea name="request" id="request" placeholder="Leave us a Message"></textarea>
-                </div>
-                <div class="col-12">
-                    <label>&nbsp;</label>
-                </div>
-                <div class="col-12">
-                    <label>
-                        <input type="checkbox" checked="checked" name="subscribe"> Newsletter
-                    </label>
-                </div>
-                <div class="col-12 ">
-                    <button class="standard-btn" type="submit" name="submit" value="submit">Submit</button>
-                </div>
-            </form>
-        </div>
+            </div>
     </section>
 
     <footer>
