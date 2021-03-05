@@ -611,14 +611,15 @@ img {
 }
 
 .section-contactform h2{
-  font-size:200%;
+  font-size:180%;
 }
 .contactform{
   margin-right:80px;
 }
 
 .form-cta{
-  margin-top:230px;
+  margin-left:30px;
+  margin-top:220px;
   color:#fff;
 }
 
@@ -1277,4 +1278,3 @@ p{
 }
 }
 }
- 
