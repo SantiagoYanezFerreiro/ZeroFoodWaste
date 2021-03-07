@@ -88,7 +88,7 @@ var markers = [
             var marker = new google.maps.Marker({
                 position: myLatlng,
                 map: map,
-                place: data.place
+                title: data.place
             });
              
             // on click function to display countries' info
