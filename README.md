@@ -189,7 +189,7 @@ I think it looks way better and visitors only see the most relevant part of the 
 
 • **EmailJS**: To make the form work and receive visitors requests.
 
-• **Google Maps API**: Used to display the map of the biggest Food Wasting Countries.
+• **Google Maps API**: Used to display the map of the biggest Food Wasting Countries. I also restricted the API request, so that only my website can make requests.
 
 
 ## Testing
