@@ -58,8 +58,8 @@ let questions = [
     questiontext:
       "What can we do to be able to feed the extra 2.3 billion people that will leave on Earth by 2050?",
     imgSrc: "assets/images/quiz-5.jpg",
-    optionA: "Reduce Food Waste to 0",
-    optionB: "Increase food production by 300%",
+    optionA: "Eliminate Food Waste",
+    optionB: "Increase food production 300%",
     optionC: "Increase food production 100%.",
     correct: "C",
   },

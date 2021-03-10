@@ -314,12 +314,13 @@ nav.filleffect ul li a {
 
 #startbtn {
   width: 150px;
-  height: 100px;
+  height: 60px;
   font-size: 1.5em;
   font-weight: bolder;
   word-break: break-all;
   background-color:white;
   border: 2px solid black;
+  padding-top:8px;
   text-align: center;
   cursor: pointer;
   position: absolute;
@@ -378,6 +379,7 @@ nav.filleffect ul li a {
   display: inline-block;
   width: 300px;
   text-align: center;
+  margin-bottom:5px;
 }
 
 .option:hover {
@@ -629,7 +631,7 @@ img {
 }
 
 .section-contactform input{
-  margin-bottom:0px;
+  margin-bottom:10px;
 }
 
 .section-contactform {
@@ -669,6 +671,12 @@ label{
   font-weight:900;
   font-size:25px;
   font-weight:bolder;
+}
+
+.active{
+  margin-left:100px;
+  float:left;
+  
 }
 
 #name {

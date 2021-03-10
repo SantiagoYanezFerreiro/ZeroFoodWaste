@@ -12,12 +12,10 @@ function SubmitForm(contactForm) {
         console.log("SUCCESS", response);
         alert('You are the coolest, thank you for contacting us!');
         window.location.href="https://santiagoyanezferreiro.github.io/ZeroFoodWaste/";
-        
       },
       function (error) {
         console.log("FAILED", error);
       },
   );
-   
   return false; // To block from loading a new page
 }
