@@ -1,6 +1,6 @@
 ![Site Logo](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/assets/images/logo.PNG)
 
-![Live Site Link](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/)
+![Live Site Link](https://santiagoyanezferreiro.github.io/ZeroFoodWaste/index.html)
 
 ![GitHub Repository Link](https://github.com/SantiagoYanezFerreiro/ZeroFoodWaste)
 
