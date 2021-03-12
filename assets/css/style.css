@@ -1266,9 +1266,9 @@ p{
 }
 }
 }
-/* VerySmall phones - from 0 to 350 px  */
+/* VerySmall phones - from 0 to 430 px  */
 
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:430px) {
 
 .section-take-further-action .standard-btn{
   padding: 10px 10px;
