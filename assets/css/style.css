@@ -328,7 +328,6 @@ nav.filleffect ul li a {
   border-top-left-radius: 5px;
   width: 200px;
   height: 200px;
-  
 }
 
 #questiontext {
@@ -1266,5 +1265,90 @@ p{
   left:85px;
 }
 }
+}
+/* VerySmall phones - from 0 to 350 px  */
+
+@media only screen and (max-width:350px) {
+
+.section-take-further-action .standard-btn{
+  padding: 10px 10px;
+  font-size: 15px;
+  }
+
+#container{
+  width:350px;
+}
+
+#progressCircles {
+  right: 35px;
+}
+
+#scoreContainer{
+  width:350px;
+}
+
+#startbtn {
+  left: 70px;
+}
+
+#questionImage {
+  width: 120px;
+  height: 120px;
+}
+
+#questionImage img {
+  width: 120px;
+  height: 120px;
+}
+
+#questiontext {
+  width: 400px;
+}
+
+#questiontext p {
+  font-size: 0.7rem;
+  margin-left: 10px;
+  max-width:35ch;
+}
+
+#options {
+  left: 130px;
+  top: 100px;
+  width: 100px;  
+}
+
+.option {
+  width: 200px;
+}
+
+#scoreContainer img {
+  left: 140px;
+}
+
+#scoreContainer p {
+  left: 140px;
+}
+
+#resetButton{
+  left:80px;
+}
+
+#infoButton{
+  left:60px;
+}
+
+.section-partners h2{
+    font-size: 1.6rem;
+}
+
+.form-cta{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.section-contactform input,
+  textarea {
+  width: 300px;
+}   
 }
 }
