@@ -1,6 +1,6 @@
 window.onload = function () {
-        initMap();
-}
+    initMap();
+};
     
 //Array containing latitude, longitude and info about the countries
 
@@ -48,14 +48,14 @@ var markers = [
         "latitude": '-24.7761086',
         "longitude": '134.755',
         "info": '<b>Australia</b><br>4th position. <br> Food waste per capita: 65.1 kg, <br> Pct. Food loss: 2.3%<br>'
-     }
-    ,{
+     },
+    {
        "place": 'Canada',
         "latitude": '61.0666922',
         "longitude": '-107.991707',
         "info": '<b>Canada</b><br>3rd position. <br> Food waste per capita: 78.2 kg, <br> Pct. Food loss: 1.7%<br>'
-     }
-    ,{
+     },
+    {
        "place": 'Belgium',
         "latitude": '50.6402809',
         "longitude": '4.6667145',
