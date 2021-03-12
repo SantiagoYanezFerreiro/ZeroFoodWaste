@@ -283,7 +283,7 @@ it will get cloned.
 
 ## Code
 
-Used the Bootstrap library to make the site responsive. Also took advantages of its built-in classes, for examppe to make the nav menu responsive.
+Used the Bootstrap library to make the site responsive. Also took advantages of its built-in classes, for example to make the nav menu responsive.
 
 ## Content
 
