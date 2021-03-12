@@ -8,8 +8,8 @@
 
 Zero Food Waste is a non-profit association whose mission is to contribute to reducing Global Food Waste. 
 
-For this purpose 1)it allows companies like restaurants and supermarkets that want to donate food to get in touch through it with charities and other organisations that could use this food. 
-2) Offers information and a newsletter to raise awareness about this problem and inform users about related events.
+For this purpose 1) it allows companies like restaurants and supermarkets that want to donate food to get in touch through it with charities and other organisations that could use this food. 
+2) offers information and a newsletter to raise awareness about this problem and inform users about related events.
 
 The website provides general statistics and information about Worldwide Food Waste and their future predictions and a quiz to keep users engaged while learning. Also uses the Google Maps API to display the countries that waste the most food globally. 
 About Us Page contains info about the company; its history, mission & values and their current & future actions to fight this problem.
@@ -27,7 +27,7 @@ About Us Page contains info about the company; its history, mission & values and
 
 • Be able to contact the company to donate (businesses), receive donated food (charities), collaborations and general queries. 
 
-• Get Information about the organisation; it history, accomplishments and future plans. 
+• Get Information about the organisation; its history, accomplishments and future plans. 
 
 • Have the option to sign up for the newsletter to receive invitations to special events and tips about how to reduce Food Waste. 
 
@@ -288,16 +288,19 @@ Used the Bootstrap library to make the site responsive. Also took advantages of 
 ## Content
 
 •	Social Media Icons are from Font Awesome.
+
 •	Bootstrap Navbar Documentation helped me to create the navigation menu.
 
 
 ## Media
 •	Pictures are from Unsplash.com, Pexels and Google Images.
+
 •	The favicon was created using the resource ![Realfavicongenerator](https://realfavicongenerator.net/)
 
 
 ## Acknowledgements
 •	My mentor Narender Singh, was of great help in this project and introduced me to good changes and techniques to implement on it.
+
 •	I checked projects from other students to get an idea of the scope of the project and as inspiration for my project.
 
 ## Disclaimer
