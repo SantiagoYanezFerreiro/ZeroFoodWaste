@@ -295,7 +295,7 @@ Used the Bootstrap library to make the site responsive. Also took advantages of 
 ## Media
 •	Pictures are from Unsplash.com, Pexels and Google Images.
 
-•	The favicon was created using the resource ![Realfavicongenerator](https://realfavicongenerator.net/)
+•	The favicon was created using the resource [Realfavicongenerator](https://realfavicongenerator.net/)
 
 
 ## Acknowledgements
