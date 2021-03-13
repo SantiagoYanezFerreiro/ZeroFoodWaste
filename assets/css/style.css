@@ -1306,9 +1306,10 @@ p{
 }
 
 #questiontext p {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   margin-left: 10px;
   max-width:35ch;
+  padding:0px;
 }
 
 #options {
