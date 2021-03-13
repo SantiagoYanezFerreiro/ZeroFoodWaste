@@ -1302,7 +1302,7 @@ p{
 }
 
 #questiontext {
-  width: 400px;
+  width: 230px;
 }
 
 #questiontext p {
@@ -1319,6 +1319,13 @@ p{
 
 .option {
   width: 200px;
+}
+
+.prog {
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 18px;
+  height: 18px;
 }
 
 #scoreContainer img {
@@ -1350,5 +1357,9 @@ p{
   textarea {
   width: 300px;
 }   
+
+input[type=checkbox]{
+ margin-bottom:0px;
+}
 }
 }
