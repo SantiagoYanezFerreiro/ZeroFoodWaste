@@ -1328,6 +1328,14 @@ p{
   height: 18px;
 }
 
+#btimeLeft {
+    margin-left: 5px;
+}
+
+#timeLeft {
+  margin-left: 5px;
+}
+
 #scoreContainer img {
   left: 140px;
 }
