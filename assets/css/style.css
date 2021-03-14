@@ -1344,7 +1344,8 @@ p{
 }
 
 #scoreContainer p {
-  left: 140px;
+  left: 150px;
+  height:65px;
 }
 
 #resetButton{
