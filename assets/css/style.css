@@ -1276,9 +1276,10 @@ p{
   }
 
 #container{
-  width:350px;
-  height:350px;
+  background-image: url("../images/quizcontainerbg4.jpg");
   background-size: 350px 350px;
+  width: 350px;
+  height: 350px;
 }
 
 #progressCircles {
