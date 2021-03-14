@@ -1278,6 +1278,7 @@ p{
 #container{
   width:350px;
   height:350px;
+  background-size: 3500px 350px;
 }
 
 #progressCircles {
@@ -1344,18 +1345,15 @@ p{
 }
 
 #scoreContainer p {
-  left: 150px;
-  height:65px;
+  left: 140px;
 }
 
 #resetButton{
   left:80px;
-  height:90px;
 }
 
 #infoButton{
   left:60px;
-  height:75px;
 }
 
 .section-partners h2{
@@ -1377,4 +1375,3 @@ input[type=checkbox]{
 }
 }
 }
-
