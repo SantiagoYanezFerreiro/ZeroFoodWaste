@@ -1228,7 +1228,7 @@ p{
 }
 
 #questiontext p {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   margin-left: 50px;
   max-width:35ch;
 }
@@ -1277,6 +1277,7 @@ p{
 
 #container{
   width:350px;
+  height:350px;
 }
 
 #progressCircles {
@@ -1285,6 +1286,7 @@ p{
 
 #scoreContainer{
   width:350px;
+  height:350px;
 }
 
 #startbtn {
@@ -1306,7 +1308,7 @@ p{
 }
 
 #questiontext p {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   margin-left: 10px;
   max-width:35ch;
   padding:0px;
