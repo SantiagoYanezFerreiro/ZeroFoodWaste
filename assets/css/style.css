@@ -1349,10 +1349,12 @@ p{
 
 #resetButton{
   left:80px;
+  height:90px;
 }
 
 #infoButton{
   left:60px;
+  height:75px;
 }
 
 .section-partners h2{
@@ -1374,3 +1376,4 @@ input[type=checkbox]{
 }
 }
 }
+
