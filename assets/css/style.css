@@ -90,15 +90,11 @@ p {
 .bgimg-index1 h3,
 .bgimg-index2 h2,
 .bgimg-index3 h2,
-.bgimg-index3 h3{
+.bgimg-index3 h3,
+.bgimg-stake3 h2,
+.bgimg-stake3 h3 {
   color: #fff;
   font-size: 30px;
-}
-
-.bgimg-stake3 h2,
-.bgimg-stake3 h3{
-  color: #fff;
-  font-size:25px;
 }
 
 .bgimg-index2 h2 {
@@ -714,6 +710,11 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bgimg-stake3 h2,
+.bgimg-stake3 h3 {
+  font-size: 25px;
 }
 
 .bgimg-stake1 {
