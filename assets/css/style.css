@@ -1350,13 +1350,13 @@ p{
 }
 
 #resetButton{
-  left:80px;
-  bottom:140px;
+  bottom:70px;
+  left:40px;
 }
 
 #infoButton{
-  left:60px;
-  bottom:300px;
+  bottom:140px;
+  left:420px;
 }
 
 .section-partners h2{
