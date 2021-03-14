@@ -1289,6 +1289,8 @@ p{
 #scoreContainer{
   width:350px;
   height:350px;
+  background-image: url("../images/quizcontainerbg5.jpg");
+  background-size: 350px 350px;
 }
 
 #startbtn {
@@ -1350,13 +1352,13 @@ p{
 }
 
 #resetButton{
-  bottom:70px;
-  left:40px;
+  bottom:220px;
+  left:70px;
 }
 
 #infoButton{
-  bottom:140px;
-  left:420px;
+  bottom:200px;
+  left:50px;
 }
 
 .section-partners h2{
