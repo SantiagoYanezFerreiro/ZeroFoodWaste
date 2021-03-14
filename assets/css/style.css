@@ -1278,7 +1278,7 @@ p{
 #container{
   width:350px;
   height:350px;
-  background-size: 3500px 350px;
+  background-size: 350px 350px;
 }
 
 #progressCircles {
@@ -1350,10 +1350,12 @@ p{
 
 #resetButton{
   left:80px;
+  bottom:140px;
 }
 
 #infoButton{
   left:60px;
+  bottom:210px;
 }
 
 .section-partners h2{
