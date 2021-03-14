@@ -90,11 +90,14 @@ p {
 .bgimg-index1 h3,
 .bgimg-index2 h2,
 .bgimg-index3 h2,
-.bgimg-index3 h3,
-.bgimg-stake3 h2,
-.bgimg-stake3 h3 {
+.bgimg-index3 h3{
   color: #fff;
   font-size: 30px;
+}
+
+.bgimg-stake3 h2,
+.bgimg-stake3 h3{
+  font-size:25px;
 }
 
 .bgimg-index2 h2 {
@@ -1289,8 +1292,6 @@ p{
 #scoreContainer{
   width:350px;
   height:350px;
-  background-image: url("../images/quizcontainerbg5.jpg");
-  background-size: 350px 350px;
 }
 
 #startbtn {
@@ -1352,13 +1353,13 @@ p{
 }
 
 #resetButton{
-  bottom:220px;
-  left:70px;
+  left:80px;
+  bottom:140px;
 }
 
 #infoButton{
-  bottom:200px;
-  left:50px;
+  left:60px;
+  bottom:300px;
 }
 
 .section-partners h2{
